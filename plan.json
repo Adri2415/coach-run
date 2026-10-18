@@ -12,16 +12,16 @@
       "analysis": "Hier : 8,0 km à 5:12/km, effort relatif 15. Footing bien maîtrisé, tu boucles la semaine à 31 km sans forcer.",
       "motivation": "Le semi de Paris se court sur 21,1 km, mais il se gagne sur 20 semaines.",
       "emoji": "😴",
-      "care": "🩹 Démarre aujourd'hui : routine ischios 6 min (ponts tenus, isométrique, fente basse)."
+      "care": "🩹 Démarre aujourd'hui : glissements du nerf (2 × 10) + ponts tenus. Pas d'étirements."
     },
     "2026-10-19": {
       "tag": "Muscu",
       "kind": "muscu",
       "title": "Gainage + fessiers · 45 min",
-      "detail": "Hip thrust 4×8-10 · Fente bulgare 3×8 · Pont ischios tenu 4×30 s (à la place du SDT 1 jambe) · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
+      "detail": "Hip thrust 4×8-10 · Fente bulgare 3×8 · Pont ischios tenu 4×30 s (à la place du SDT 1 jambe, et sans fente bulgare profonde) · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
       "emoji": "🏋️",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-20": {
       "tag": "Vitesse",
@@ -30,7 +30,7 @@
       "detail": "20 min footing + 4 lignes droites. 800 m en 2:52-2:56, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
       "emoji": "⚡",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-21": {
       "tag": "Kiné",
@@ -39,7 +39,7 @@
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
       "emoji": "🩺",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-22": {
       "tag": "Footing",
@@ -48,7 +48,7 @@
       "detail": "Allure 5:00-5:15/km, en aisance respiratoire.",
       "food": "Journée normale.",
       "emoji": "🏃",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-23": {
       "tag": "Natation",
@@ -57,7 +57,7 @@
       "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
       "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
       "emoji": "🏊",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-24": {
       "tag": "Repos",
@@ -66,7 +66,7 @@
       "detail": "Veille de sortie longue.",
       "food": "Portion normale de féculents au dîner.",
       "emoji": "😴",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-25": {
       "tag": "Sortie longue",
@@ -75,7 +75,7 @@
       "detail": "Allure 4:55-5:15/km, terrain plat, sans relances.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-26": {
       "tag": "Muscu",
@@ -84,7 +84,7 @@
       "detail": "Même séance, +1 répétition par série ou un peu plus lourd sur le hip thrust et la fente bulgare. Copenhague 3×25 s.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
       "emoji": "🏋️",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-27": {
       "tag": "Vitesse",
@@ -93,7 +93,7 @@
       "detail": "20 min footing + 4 lignes droites. 1000 m en 3:35-3:38, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
       "emoji": "⚡",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-28": {
       "tag": "Kiné",
@@ -102,7 +102,7 @@
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
       "emoji": "🩺",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-29": {
       "tag": "Footing",
@@ -111,7 +111,7 @@
       "detail": "Allure 5:00-5:15/km.",
       "food": "Journée normale.",
       "emoji": "🏃",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-30": {
       "tag": "Natation",
@@ -120,7 +120,7 @@
       "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
       "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
       "emoji": "🏊",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-31": {
       "tag": "Repos",
@@ -129,7 +129,7 @@
       "detail": "Veille de sortie longue.",
       "food": "Portion normale de féculents au dîner.",
       "emoji": "😴",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-11-01": {
       "tag": "Sortie longue",
@@ -138,7 +138,7 @@
       "detail": "Allure 4:55-5:15/km, terrain plat. Si le tendon va bien : 2 derniers km à 4:20.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
-      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     }
   },
   "quotes": [
@@ -214,15 +214,15 @@
     }
   },
   "care": {
-    "titre": "Ischios (sous la fesse)",
-    "resume": "Routine ischios 6 min matin + midi · lève-toi toutes les 45 min",
+    "titre": "Ischios et nerf sciatique (sous la fesse)",
+    "resume": "Glissements du nerf + ponts tenus, matin et midi · lève-toi toutes les 30-45 min",
     "routine": [
-      "Pont fessier tenu : 5 × 30 s, bassin haut, sans douleur",
-      "Ischios en isométrique : allongé, genou plié, talon qui pousse dans le sol, 5 × 30 s à effort modéré",
-      "Fente basse (fléchisseurs de hanche) : 2 × 45 s par côté",
+      "Glissement du nerf assis : dos droit, tends la jambe en relevant la tête, plie-la en baissant le menton. 2 × 10 par jambe, en douceur, sans douleur",
+      "Pont fessier tenu : 5 × 30 s",
+      "Fente basse (avant de la hanche) : 2 × 45 s par côté",
       "Chat-vache + rotations du buste : 1 min",
-      "À éviter : étirer fort les ischios (toucher les orteils), rester assis plus de 45 min, s'asseoir sur une surface dure ou avec le portefeuille dans la poche arrière"
+      "À éviter : étirer les ischios ou le nerf en tension (toucher les orteils, jambe tendue tête baissée), rester assis le dos arrondi, chaise dure, portefeuille dans la poche arrière"
     ],
-    "regle": "Douleur sous la fesse > 3/10 pendant une séance → passe en footing lent ou arrête, et préviens le coach."
+    "regle": "Fourmillements, engourdissement, perte de force ou douleur qui descend dans la jambe → médecin. Douleur > 3/10 en séance → footing lent ou arrêt."
   }
 }
