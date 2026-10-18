@@ -131,8 +131,12 @@ function build(family) {
   w.addSpacer(4);
 
   if (analysis) {
-    addText(w, "📊 " + analysis, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : 2).minimumScaleFactor = 0.85;
-    w.addSpacer(4);
+    addText(w, "📊 " + analysis, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : (today.care ? 1 : 2)).minimumScaleFactor = 0.85;
+    w.addSpacer(3);
+  }
+  if (today.care) {
+    addText(w, today.care, Font.semiboldSystemFont(big ? 13 : 11), C.hard, big ? 2 : 1).minimumScaleFactor = 0.85;
+    w.addSpacer(3);
   }
 
   if (family === "large" && today.detail) {

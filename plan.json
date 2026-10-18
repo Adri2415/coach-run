@@ -11,23 +11,26 @@
       "food": "Protéines à chaque repas, féculents modérés.",
       "analysis": "Hier : 8,0 km à 5:12/km, effort relatif 15. Footing bien maîtrisé, tu boucles la semaine à 31 km sans forcer.",
       "motivation": "Le semi de Paris se court sur 21,1 km, mais il se gagne sur 20 semaines.",
-      "emoji": "😴"
+      "emoji": "😴",
+      "care": "🩹 Démarre aujourd'hui : routine ischios 6 min (ponts tenus, isométrique, fente basse)."
     },
     "2026-10-19": {
       "tag": "Muscu",
       "kind": "muscu",
       "title": "Gainage + fessiers · 45 min",
-      "detail": "Hip thrust 4×8-10 · Fente bulgare 3×8 · SDT 1 jambe 3×8 · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
+      "detail": "Hip thrust 4×8-10 · Fente bulgare 3×8 · Pont ischios tenu 4×30 s (à la place du SDT 1 jambe) · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
-      "emoji": "🏋️"
+      "emoji": "🏋️",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-20": {
       "tag": "Vitesse",
       "kind": "hard",
       "title": "6 × 800 m · ~10 km",
-      "detail": "20 min footing + 4 lignes droites. 800 m en 2:52-2:56, récup 1:30 trot. 10 min retour au calme.",
+      "detail": "20 min footing + 4 lignes droites. 800 m en 2:52-2:56, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
-      "emoji": "⚡"
+      "emoji": "⚡",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-21": {
       "tag": "Kiné",
@@ -35,7 +38,8 @@
       "title": "Kiné · option vélo/natation 40 min",
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
-      "emoji": "🩺"
+      "emoji": "🩺",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-22": {
       "tag": "Footing",
@@ -43,7 +47,8 @@
       "title": "8 km facile + 4 lignes droites",
       "detail": "Allure 5:00-5:15/km, en aisance respiratoire.",
       "food": "Journée normale.",
-      "emoji": "🏃"
+      "emoji": "🏃",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-23": {
       "tag": "Natation",
@@ -51,7 +56,8 @@
       "title": "Natation technique · 1500 m",
       "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
       "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
-      "emoji": "🏊"
+      "emoji": "🏊",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-24": {
       "tag": "Repos",
@@ -59,7 +65,8 @@
       "title": "Repos ou 1 h de vélo tranquille",
       "detail": "Veille de sortie longue.",
       "food": "Portion normale de féculents au dîner.",
-      "emoji": "😴"
+      "emoji": "😴",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-25": {
       "tag": "Sortie longue",
@@ -67,7 +74,8 @@
       "title": "16 km en endurance fondamentale",
       "detail": "Allure 4:55-5:15/km, terrain plat, sans relances.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
-      "emoji": "🏃"
+      "emoji": "🏃",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-26": {
       "tag": "Muscu",
@@ -75,15 +83,17 @@
       "title": "Gainage + fessiers · 45 min",
       "detail": "Même séance, +1 répétition par série ou un peu plus lourd sur le hip thrust et la fente bulgare. Copenhague 3×25 s.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
-      "emoji": "🏋️"
+      "emoji": "🏋️",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-27": {
       "tag": "Vitesse",
       "kind": "hard",
       "title": "5 × 1000 m · ~11 km",
-      "detail": "20 min footing + 4 lignes droites. 1000 m en 3:35-3:38, récup 1:30 trot. 10 min retour au calme.",
+      "detail": "20 min footing + 4 lignes droites. 1000 m en 3:35-3:38, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
-      "emoji": "⚡"
+      "emoji": "⚡",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-28": {
       "tag": "Kiné",
@@ -91,7 +101,8 @@
       "title": "Kiné · option vélo/natation 45 min",
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
-      "emoji": "🩺"
+      "emoji": "🩺",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-29": {
       "tag": "Footing",
@@ -99,7 +110,8 @@
       "title": "9 km facile + 5 lignes droites",
       "detail": "Allure 5:00-5:15/km.",
       "food": "Journée normale.",
-      "emoji": "🏃"
+      "emoji": "🏃",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-30": {
       "tag": "Natation",
@@ -107,7 +119,8 @@
       "title": "Natation technique · 1500 m",
       "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
       "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
-      "emoji": "🏊"
+      "emoji": "🏊",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-10-31": {
       "tag": "Repos",
@@ -115,7 +128,8 @@
       "title": "Repos ou 1 h de vélo tranquille",
       "detail": "Veille de sortie longue.",
       "food": "Portion normale de féculents au dîner.",
-      "emoji": "😴"
+      "emoji": "😴",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     },
     "2026-11-01": {
       "tag": "Sortie longue",
@@ -123,7 +137,8 @@
       "title": "17 km en endurance fondamentale",
       "detail": "Allure 4:55-5:15/km, terrain plat. Si le tendon va bien : 2 derniers km à 4:20.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
-      "emoji": "🏃"
+      "emoji": "🏃",
+      "care": "🩹 Routine ischios 6 min matin + midi. Lève-toi toutes les 45 min au travail."
     }
   },
   "quotes": [
@@ -197,5 +212,17 @@
       "bike_km": 0,
       "swim_m": 0
     }
+  },
+  "care": {
+    "titre": "Ischios (sous la fesse)",
+    "resume": "Routine ischios 6 min matin + midi · lève-toi toutes les 45 min",
+    "routine": [
+      "Pont fessier tenu : 5 × 30 s, bassin haut, sans douleur",
+      "Ischios en isométrique : allongé, genou plié, talon qui pousse dans le sol, 5 × 30 s à effort modéré",
+      "Fente basse (fléchisseurs de hanche) : 2 × 45 s par côté",
+      "Chat-vache + rotations du buste : 1 min",
+      "À éviter : étirer fort les ischios (toucher les orteils), rester assis plus de 45 min, s'asseoir sur une surface dure ou avec le portefeuille dans la poche arrière"
+    ],
+    "regle": "Douleur sous la fesse > 3/10 pendant une séance → passe en footing lent ou arrête, et préviens le coach."
   }
 }

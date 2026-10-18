@@ -58,6 +58,11 @@ function run() {
   out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(today.title) + ' | size=13');
   if (today.analysis) out.push('📊 ' + clean(today.analysis) + ' | size=12');
   clean(today.detail).split(/ · |\. /).filter(Boolean).forEach(l => out.push(l + ' | size=12'));
+  if (today.care) out.push(clean(today.care) + ' | size=12 color=#C2611A');
+  if (plan.care && plan.care.routine) {
+    out.push('Routine ischios | size=12');
+    plan.care.routine.forEach(r => out.push('--' + clean(r) + ' | size=12'));
+  }
   if (today.food) out.push('🍽 ' + clean(today.food) + ' | size=12');
   const dayIndex = Math.floor((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - new Date(now.getFullYear(), 0, 1)) / 86400000);
   const motivation = today.motivation || (QUOTES.length ? QUOTES[dayIndex % QUOTES.length] : '');
