@@ -34,7 +34,9 @@ function run() {
   const pad = n => String(n).padStart(2, '0');
   const iso = d => d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
   const JOURS = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
-  const ICON = { run: '🏃', hard: '⚡', muscu: '🏋️', rest: '🧘' };
+  const ICON = { run: '🏃', hard: '⚡', muscu: '🏋️', swim: '🏊', bike: '🚴', kine: '🩺', rest: '😴' };
+  const emo = d => d.emoji || ICON[d.kind] || '🏃';
+  const QUOTES = plan.quotes || [];
   const clean = s => String(s || '').replace(/\|/g, '/');
   const short = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 
@@ -51,22 +53,26 @@ function run() {
   const next = days[tomorrowKey];
 
   const out = [];
-  out.push((ICON[today.kind] || '🏃') + ' ' + short(clean(today.title), 30));
+  out.push(emo(today) + ' ' + short(clean(today.title), 30));
   out.push('---');
-  out.push(clean(today.tag).toUpperCase() + ' · ' + clean(today.title) + ' | size=13');
+  out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(today.title) + ' | size=13');
+  if (today.analysis) out.push('📊 ' + clean(today.analysis) + ' | size=12');
   clean(today.detail).split(/ · |\. /).filter(Boolean).forEach(l => out.push(l + ' | size=12'));
   if (today.food) out.push('🍽 ' + clean(today.food) + ' | size=12');
+  const dayIndex = Math.floor((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - new Date(now.getFullYear(), 0, 1)) / 86400000);
+  const motivation = today.motivation || (QUOTES.length ? QUOTES[dayIndex % QUOTES.length] : '');
+  if (motivation) out.push('💬 ' + clean(motivation) + ' | size=12');
   if (next) {
     out.push('---');
-    out.push('Demain : ' + clean(next.title) + ' | size=12');
+    out.push('Demain : ' + emo(next) + ' ' + clean(next.title) + ' | size=12');
   }
-  const rest = keys.filter(k => k > tomorrowKey);
+  const rest = keys.filter(k => k > tomorrowKey).slice(0, 7);
   if (rest.length) {
     out.push('---');
     out.push('À venir | size=11');
     rest.forEach(k => {
       const d = new Date(k + 'T12:00:00');
-      out.push(JOURS[d.getDay()] + ' ' + d.getDate() + ' · ' + clean(days[k].title) + ' | size=12');
+      out.push(JOURS[d.getDay()] + ' ' + d.getDate() + '  ' + emo(days[k]) + ' ' + clean(days[k].title) + ' | size=12');
     });
   }
   if (plan.note) { out.push('---'); out.push(clean(plan.note) + ' | size=11'); }

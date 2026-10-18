@@ -22,6 +22,7 @@ try {
 }
 const PLAN = (data && data.days) || {};
 const PAGE = (data && data.page) || PAGE_URL;
+const QUOTES = (data && data.quotes) || [];
 
 const DEFAULT_DAY = {
   tag: "Repos", kind: "rest",
@@ -39,8 +40,15 @@ const C = {
   run: Color.dynamic(new Color("#2C56C9"), new Color("#7D9CF0")),
   muscu: Color.dynamic(new Color("#2C56C9"), new Color("#7D9CF0")),
   hard: Color.dynamic(new Color("#C2611A"), new Color("#EE9A5A")),
-  rest: Color.dynamic(new Color("#5A6878"), new Color("#9AA8B8"))
+  rest: Color.dynamic(new Color("#5A6878"), new Color("#9AA8B8")),
+  swim: Color.dynamic(new Color("#0E8A9A"), new Color("#5CC8D6")),
+  bike: Color.dynamic(new Color("#2F7D55"), new Color("#6CC596")),
+  kine: Color.dynamic(new Color("#7A55B8"), new Color("#B39AE8"))
 };
+
+// Émoji par pratique (utilisé si le programme n'en précise pas)
+const EMOJI = { run: "🏃", hard: "⚡", muscu: "🏋️", swim: "🏊", bike: "🚴", kine: "🩺", rest: "😴" };
+const emojiOf = d => d.emoji || EMOJI[d.kind] || "🏃";
 
 // ---------- Dates ----------
 function iso(d) {
@@ -66,6 +74,10 @@ function dayFor(d) {
 }
 
 const today = dayFor(now);
+// Phrase de motivation : celle du jour si la mise à jour du matin l'a écrite, sinon une phrase de la liste qui change chaque jour
+const dayIndex = Math.floor((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - new Date(now.getFullYear(), 0, 1)) / 86400000);
+const motivation = today.motivation || (QUOTES.length ? QUOTES[dayIndex % QUOTES.length] : "");
+const analysis = today.analysis || "";
 const next = dayFor(tomorrow);
 const dateLabel = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" }).format(now);
 const shortDay = d => new Intl.DateTimeFormat("fr-FR", { weekday: "short" }).format(d).replace(".", "");
@@ -107,39 +119,47 @@ function build(family) {
   if (family === "small") {
     addTag(w, today);
     w.addSpacer(6);
-    addText(w, today.title, Font.boldSystemFont(15), C.fg, 4);
+    addText(w, emojiOf(today) + " " + today.title, Font.boldSystemFont(15), C.fg, 3);
     w.addSpacer();
-    addText(w, "Demain : " + next.title, Font.systemFont(10), C.muted, 2);
+    if (motivation) addText(w, motivation, Font.italicSystemFont(10), C.run, 3);
+    else addText(w, "Demain : " + next.title, Font.systemFont(10), C.muted, 2);
     return w;
   }
 
-  addText(w, today.title, Font.boldSystemFont(17), C.fg, 2);
+  const big = family === "large";
+  addText(w, emojiOf(today) + " " + today.title, Font.boldSystemFont(big ? 18 : 16), C.fg, big ? 2 : 1).minimumScaleFactor = 0.8;
   w.addSpacer(4);
+
+  if (analysis) {
+    addText(w, "📊 " + analysis, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : 2).minimumScaleFactor = 0.85;
+    w.addSpacer(4);
+  }
 
   if (family === "large" && today.detail) {
     addText(w, today.detail, Font.systemFont(13), C.fg, 5);
     w.addSpacer(6);
   }
   if (today.food) {
-    addText(w, "🍽 " + today.food, Font.systemFont(family === "large" ? 13 : 11), C.muted, family === "large" ? 3 : 2);
+    addText(w, "🍽 " + today.food, Font.systemFont(big ? 13 : 11), C.muted, big ? 3 : 1).minimumScaleFactor = 0.85;
   }
 
   w.addSpacer();
 
+  if (motivation) {
+    addText(w, motivation, Font.italicSystemFont(big ? 13 : 11), C.run, big ? 2 : 1).minimumScaleFactor = 0.8;
+    w.addSpacer(big ? 10 : 4);
+  }
+
   if (family === "large") {
     addText(w, "CETTE SEMAINE", Font.semiboldSystemFont(10), C.muted);
     w.addSpacer(4);
-    for (const k of keys) {
-      if (k <= iso(now)) continue;
+    for (const k of keys.filter(k => k > iso(now)).slice(0, 6)) {
       const d = new Date(k + "T12:00:00");
       const row = w.addStack();
       row.centerAlignContent();
       const day = addText(row, shortDay(d), Font.semiboldSystemFont(12), C.muted);
       row.addSpacer(8);
-      const dot = row.addStack();
-      dot.size = new Size(6, 6);
-      dot.cornerRadius = 3;
-      dot.backgroundColor = C[PLAN[k].kind] || C.run;
+      addText(row, emojiOf(PLAN[k]), Font.systemFont(12), C.fg, 1);
       row.addSpacer(6);
       addText(row, PLAN[k].title, Font.systemFont(12), C.fg, 1);
       w.addSpacer(3);
@@ -151,7 +171,7 @@ function build(family) {
     w.addSpacer(6);
     const row = w.addStack();
     addText(row, "Demain  ", Font.semiboldSystemFont(11), C.muted);
-    addText(row, next.title, Font.systemFont(11), C.fg, 1);
+    addText(row, emojiOf(next) + " " + next.title, Font.systemFont(11), C.fg, 1);
   }
 
   return w;
