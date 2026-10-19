@@ -58,7 +58,7 @@ function run() {
   const out = [];
   out.push(emo(today) + ' ' + short(clean(label(today)), 28) + tick(today));
   out.push('---');
-  out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(label(today)) + (isDone(today) ? ' · ✅ fait' : '') + ' | size=13');
+  out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(label(today)) + tick(today) + ' | size=13');
   if (today.analysis) out.push('📊 ' + clean(today.analysis) + ' | size=12');
   clean(today.detail).split(/ · |\. /).filter(Boolean).forEach(l => out.push(l + ' | size=12'));
   if (today.care) out.push(clean(today.care) + ' | size=12 color=#C2611A');

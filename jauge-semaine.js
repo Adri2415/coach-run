@@ -68,7 +68,7 @@ for (const d of dates) {
   const s = days[iso(d)];
   if (!s || ["rest", "kine"].includes(s.kind)) continue;
   prevues++;
-  if (/· fait$/.test(s.title)) faites++;
+  if (s.done === true || /· fait\s*$/.test(s.title)) faites++;
 }
 
 const MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];

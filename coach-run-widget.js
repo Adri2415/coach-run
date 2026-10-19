@@ -53,7 +53,7 @@ const emojiOf = d => d.emoji || EMOJI[d.kind] || "🏃";
 // Séance faite : champ done, ou titre terminé par « · fait »
 const isDone = d => !!d && (d.done === true || /\s*·\s*fait\s*$/.test(d.title || ""));
 const label = d => (d.title || "").replace(/\s*·\s*fait\s*$/, "");
-const tick = d => isDone(d) ? "  ✅" : "";
+const tick = d => isDone(d) ? " ✅" : "";
 
 // ---------- Dates ----------
 function iso(d) {
@@ -98,10 +98,10 @@ function addText(stack, txt, font, color, lines) {
 
 function addTag(stack, day) {
   const pill = stack.addStack();
-  pill.backgroundColor = isDone(day) ? C.good : (C[day.kind] || C.run);
+  pill.backgroundColor = C[day.kind] || C.run;
   pill.cornerRadius = 8;
   pill.setPadding(2, 7, 2, 7);
-  addText(pill, (isDone(day) ? "✓ FAIT · " : "") + day.tag.toUpperCase(), Font.boldSystemFont(10), Color.white());
+  addText(pill, day.tag.toUpperCase(), Font.boldSystemFont(10), Color.white());
 }
 
 function build(family) {
