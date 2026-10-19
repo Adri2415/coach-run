@@ -41,6 +41,7 @@ const C = {
   muscu: Color.dynamic(new Color("#2C56C9"), new Color("#7D9CF0")),
   hard: Color.dynamic(new Color("#C2611A"), new Color("#EE9A5A")),
   rest: Color.dynamic(new Color("#5A6878"), new Color("#9AA8B8")),
+  good: Color.dynamic(new Color("#2F7D55"), new Color("#6CC596")),
   swim: Color.dynamic(new Color("#0E8A9A"), new Color("#5CC8D6")),
   bike: Color.dynamic(new Color("#2F7D55"), new Color("#6CC596")),
   kine: Color.dynamic(new Color("#7A55B8"), new Color("#B39AE8"))
@@ -49,6 +50,10 @@ const C = {
 // Émoji par pratique (utilisé si le programme n'en précise pas)
 const EMOJI = { run: "🏃", hard: "⚡", muscu: "🏋️", swim: "🏊", bike: "🚴", kine: "🩺", rest: "😴" };
 const emojiOf = d => d.emoji || EMOJI[d.kind] || "🏃";
+// Séance faite : champ done, ou titre terminé par « · fait »
+const isDone = d => !!d && (d.done === true || /\s*·\s*fait\s*$/.test(d.title || ""));
+const label = d => (d.title || "").replace(/\s*·\s*fait\s*$/, "");
+const tick = d => isDone(d) ? "  ✅" : "";
 
 // ---------- Dates ----------
 function iso(d) {
@@ -93,10 +98,10 @@ function addText(stack, txt, font, color, lines) {
 
 function addTag(stack, day) {
   const pill = stack.addStack();
-  pill.backgroundColor = C[day.kind] || C.run;
+  pill.backgroundColor = isDone(day) ? C.good : (C[day.kind] || C.run);
   pill.cornerRadius = 8;
   pill.setPadding(2, 7, 2, 7);
-  addText(pill, day.tag.toUpperCase(), Font.boldSystemFont(10), Color.white());
+  addText(pill, (isDone(day) ? "✓ FAIT · " : "") + day.tag.toUpperCase(), Font.boldSystemFont(10), Color.white());
 }
 
 function build(family) {
@@ -119,15 +124,15 @@ function build(family) {
   if (family === "small") {
     addTag(w, today);
     w.addSpacer(6);
-    addText(w, emojiOf(today) + " " + today.title, Font.boldSystemFont(15), C.fg, 3);
+    addText(w, emojiOf(today) + " " + label(today) + tick(today), Font.boldSystemFont(15), C.fg, 3);
     w.addSpacer();
     if (motivation) addText(w, motivation, Font.italicSystemFont(10), C.run, 3);
-    else addText(w, "Demain : " + next.title, Font.systemFont(10), C.muted, 2);
+    else addText(w, "Demain : " + label(next), Font.systemFont(10), C.muted, 2);
     return w;
   }
 
   const big = family === "large";
-  addText(w, emojiOf(today) + " " + today.title, Font.boldSystemFont(big ? 18 : 16), C.fg, big ? 2 : 1).minimumScaleFactor = 0.8;
+  addText(w, emojiOf(today) + " " + label(today) + tick(today), Font.boldSystemFont(big ? 18 : 16), C.fg, big ? 2 : 1).minimumScaleFactor = 0.8;
   w.addSpacer(4);
 
   if (analysis) {
@@ -157,7 +162,8 @@ function build(family) {
   if (family === "large") {
     addText(w, "CETTE SEMAINE", Font.semiboldSystemFont(10), C.muted);
     w.addSpacer(4);
-    for (const k of keys.filter(k => k > iso(now)).slice(0, 6)) {
+    const mon = new Date(now.getFullYear(), now.getMonth(), now.getDate()); mon.setDate(mon.getDate() - ((mon.getDay() + 6) % 7));
+    for (const k of keys.filter(k => k >= iso(mon) && k !== iso(now)).slice(0, 6)) {
       const d = new Date(k + "T12:00:00");
       const row = w.addStack();
       row.centerAlignContent();
@@ -165,7 +171,9 @@ function build(family) {
       row.addSpacer(8);
       addText(row, emojiOf(PLAN[k]), Font.systemFont(12), C.fg, 1);
       row.addSpacer(6);
-      addText(row, PLAN[k].title, Font.systemFont(12), C.fg, 1);
+      addText(row, label(PLAN[k]), Font.systemFont(12), k < iso(now) && !isDone(PLAN[k]) ? C.muted : C.fg, 1);
+      row.addSpacer();
+      if (isDone(PLAN[k])) addText(row, "✅", Font.systemFont(12), C.fg);
       w.addSpacer(3);
     }
   } else {
@@ -175,7 +183,7 @@ function build(family) {
     w.addSpacer(6);
     const row = w.addStack();
     addText(row, "Demain  ", Font.semiboldSystemFont(11), C.muted);
-    addText(row, emojiOf(next) + " " + next.title, Font.systemFont(11), C.fg, 1);
+    addText(row, emojiOf(next) + " " + label(next), Font.systemFont(11), C.fg, 1);
   }
 
   return w;

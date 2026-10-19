@@ -36,6 +36,9 @@ function run() {
   const JOURS = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
   const ICON = { run: '🏃', hard: '⚡', muscu: '🏋️', swim: '🏊', bike: '🚴', kine: '🩺', rest: '😴' };
   const emo = d => d.emoji || ICON[d.kind] || '🏃';
+  const isDone = d => !!d && (d.done === true || /\s*·\s*fait\s*$/.test(d.title || ''));
+  const label = d => (d.title || '').replace(/\s*·\s*fait\s*$/, '');
+  const tick = d => isDone(d) ? ' ✅' : '';
   const QUOTES = plan.quotes || [];
   const clean = s => String(s || '').replace(/\|/g, '/');
   const short = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
@@ -53,9 +56,9 @@ function run() {
   const next = days[tomorrowKey];
 
   const out = [];
-  out.push(emo(today) + ' ' + short(clean(today.title), 30));
+  out.push(emo(today) + ' ' + short(clean(label(today)), 28) + tick(today));
   out.push('---');
-  out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(today.title) + ' | size=13');
+  out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(label(today)) + (isDone(today) ? ' · ✅ fait' : '') + ' | size=13');
   if (today.analysis) out.push('📊 ' + clean(today.analysis) + ' | size=12');
   clean(today.detail).split(/ · |\. /).filter(Boolean).forEach(l => out.push(l + ' | size=12'));
   if (today.care) out.push(clean(today.care) + ' | size=12 color=#C2611A');
@@ -69,7 +72,7 @@ function run() {
   if (motivation) out.push('💬 ' + clean(motivation) + ' | size=12');
   if (next) {
     out.push('---');
-    out.push('Demain : ' + emo(next) + ' ' + clean(next.title) + ' | size=12');
+    out.push('Demain : ' + emo(next) + ' ' + clean(label(next)) + ' | size=12');
   }
   const rest = keys.filter(k => k > tomorrowKey).slice(0, 7);
   if (rest.length) {
@@ -77,7 +80,7 @@ function run() {
     out.push('À venir | size=11');
     rest.forEach(k => {
       const d = new Date(k + 'T12:00:00');
-      out.push(JOURS[d.getDay()] + ' ' + d.getDate() + '  ' + emo(days[k]) + ' ' + clean(days[k].title) + ' | size=12');
+      out.push(JOURS[d.getDay()] + ' ' + d.getDate() + '  ' + emo(days[k]) + ' ' + clean(label(days[k])) + tick(days[k]) + ' | size=12');
     });
   }
   if (plan.note) { out.push('---'); out.push(clean(plan.note) + ' | size=11'); }
