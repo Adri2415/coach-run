@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -17,11 +17,13 @@
     "2026-10-19": {
       "tag": "Muscu",
       "kind": "muscu",
-      "title": "Gainage + fessiers · 45 min",
-      "detail": "Hip thrust 4×8-10 · Fente bulgare 3×8 · Pont ischios tenu 4×30 s (à la place du SDT 1 jambe, et sans fente bulgare profonde) · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
+      "title": "Gainage + fessiers · 45 min · fait",
+      "detail": "Hip thrust 4×8-10 · Montée sur marche basse 3×10 (à la place de la fente bulgare) · Pont ischios tenu 4×30 s · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
       "emoji": "🏋️",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf + ponts tenus matin et midi. Muscu : ni soulevé jambes tendues ni fente profonde.",
+      "analysis": "Hier : repos complet, aucune activité Strava. Parfait pour attaquer frais une semaine à 34 km, avec tes premiers 800 m demain.",
+      "motivation": "Des fessiers solides aujourd'hui, une foulée qui pousse mieux demain sur les 800 m."
     },
     "2026-10-20": {
       "tag": "Vitesse",
@@ -197,7 +199,7 @@
         "2026-10-25": 16
       },
       "daily_km": {},
-      "bike_km": 0,
+      "bike_km": 17.5,
       "swim_m": 0
     },
     "2026-10-26": {
