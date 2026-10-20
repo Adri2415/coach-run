@@ -59,7 +59,16 @@ function run() {
   out.push(emo(today) + ' ' + short(clean(label(today)), 28) + tick(today));
   out.push('---');
   out.push(emo(today) + ' ' + clean(today.tag).toUpperCase() + ' · ' + clean(label(today)) + tick(today) + ' | size=13');
-  if (today.analysis) out.push('📊 ' + clean(today.analysis) + ' | size=12');
+  const S = today.session;
+  if (S) {
+    const fk = v => String(Math.round(v * 10) / 10).replace('.', ',');
+    const st = [S.km ? fk(S.km) + ' km' : '', S.m ? S.m + ' m' : '', S.time || '', S.pace || '',
+      S.hr ? '❤️ ' + S.hr : '', S.cadence ? '👣 ' + S.cadence : '', S.dplus ? '⛰ ' + S.dplus + ' m' : ''].filter(Boolean).join(' · ');
+    out.push('✅ Séance faite : ' + clean(st) + ' | size=12 color=#2F7D55');
+    if (S.summary) out.push('📊 ' + clean(S.summary) + ' | size=12');
+    if (S.recovery) out.push('🥗 Récup : ' + clean(S.recovery) + ' | size=12');
+  }
+  if (today.analysis) out.push('📊 Hier : ' + clean(today.analysis).replace(/^Hier\s*:\s*/, '') + ' | size=12');
   clean(today.detail).split(/ · |\. /).filter(Boolean).forEach(l => out.push(l + ' | size=12'));
   if (today.care) out.push(clean(today.care) + ' | size=12 color=#C2611A');
   if (plan.care && plan.care.routine) {

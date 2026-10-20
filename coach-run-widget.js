@@ -1,6 +1,7 @@
 // Coach Run — widget Scriptable
 // Affiche la séance du jour, la nutrition associée et la séance du lendemain.
-// Le programme est lu chaque jour depuis GitHub (plan.json), mis à jour automatiquement chaque matin.
+// Le programme est lu depuis GitHub (plan.json), mis à jour chaque matin puis après chaque séance
+// (stats Strava de la séance + nutrition de récupération, champ « session » du jour).
 // Tailles : petit, moyen, grand. Toucher le widget ouvre la page complète du programme.
 
 const PAGE_URL = "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey";
@@ -83,6 +84,22 @@ const today = dayFor(now);
 const dayIndex = Math.floor((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - new Date(now.getFullYear(), 0, 1)) / 86400000);
 const motivation = today.motivation || (QUOTES.length ? QUOTES[dayIndex % QUOTES.length] : "");
 const analysis = today.analysis || "";
+
+// Séance réalisée aujourd'hui (écrite après la séance à partir de Strava)
+const S = today.session || null;
+const fmtKm = v => String(Math.round(v * 10) / 10).replace(".", ",");
+function sessionLine(s) {
+  const parts = [];
+  if (s.km) parts.push(fmtKm(s.km) + " km");
+  if (s.m) parts.push(s.m + " m");
+  if (s.time) parts.push(s.time);
+  if (s.pace) parts.push(s.pace);
+  if (s.hr) parts.push("❤️ " + s.hr);
+  if (s.cadence) parts.push("👣 " + s.cadence);
+  if (s.dplus) parts.push("⛰ " + s.dplus + " m");
+  return parts.join(" · ");
+}
+const statsLine = S ? sessionLine(S) : "";
 const next = dayFor(tomorrow);
 const dateLabel = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" }).format(now);
 const shortDay = d => new Intl.DateTimeFormat("fr-FR", { weekday: "short" }).format(d).replace(".", "");
@@ -110,9 +127,8 @@ function build(family) {
   w.url = PAGE;
   w.setPadding(14, 14, 14, 14);
 
-  // Rafraîchir juste après minuit
-  const midnight = new Date(now); midnight.setHours(24, 1, 0, 0);
-  w.refreshAfterDate = midnight;
+  // Rafraîchir toutes les 20 min environ (iOS décide du moment exact) pour voir la séance dès qu'elle est enregistrée
+  w.refreshAfterDate = new Date(Date.now() + 20 * 60 * 1000);
 
   const head = w.addStack();
   head.centerAlignContent();
@@ -124,9 +140,10 @@ function build(family) {
   if (family === "small") {
     addTag(w, today);
     w.addSpacer(6);
-    addText(w, emojiOf(today) + " " + label(today) + tick(today), Font.boldSystemFont(15), C.fg, 3);
+    addText(w, emojiOf(today) + " " + label(today) + tick(today), Font.boldSystemFont(15), C.fg, S ? 2 : 3);
     w.addSpacer();
-    if (motivation) addText(w, motivation, Font.italicSystemFont(10), C.run, 3);
+    if (S) addText(w, statsLine, Font.semiboldSystemFont(11), C.good, 3).minimumScaleFactor = 0.8;
+    else if (motivation) addText(w, motivation, Font.italicSystemFont(10), C.run, 3);
     else addText(w, "Demain : " + label(next), Font.systemFont(10), C.muted, 2);
     return w;
   }
@@ -135,26 +152,42 @@ function build(family) {
   addText(w, emojiOf(today) + " " + label(today) + tick(today), Font.boldSystemFont(big ? 18 : 16), C.fg, big ? 2 : 1).minimumScaleFactor = 0.8;
   w.addSpacer(4);
 
-  if (analysis) {
-    addText(w, "📊 " + analysis, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : (today.care ? 1 : 2)).minimumScaleFactor = 0.85;
+  if (S) {
+    // Séance faite : stats, bilan et nutrition de récupération
+    addText(w, "✅ " + statsLine, Font.semiboldSystemFont(big ? 14 : 12), C.good, big ? 2 : 1).minimumScaleFactor = 0.75;
     w.addSpacer(3);
-  }
-  if (today.care) {
-    addText(w, today.care, Font.semiboldSystemFont(big ? 13 : 11), C.hard, big ? 2 : 1).minimumScaleFactor = 0.85;
-    w.addSpacer(3);
-  }
-
-  if (family === "large" && today.detail) {
-    addText(w, today.detail, Font.systemFont(13), C.fg, 5);
-    w.addSpacer(6);
-  }
-  if (today.food) {
-    addText(w, "🍽 " + today.food, Font.systemFont(big ? 13 : 11), C.muted, big ? 3 : 1).minimumScaleFactor = 0.85;
+    if (S.summary) {
+      addText(w, "📊 " + S.summary, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : 2).minimumScaleFactor = 0.85;
+      w.addSpacer(3);
+    }
+    if (big && today.care) {
+      addText(w, today.care, Font.semiboldSystemFont(13), C.hard, 2).minimumScaleFactor = 0.85;
+      w.addSpacer(3);
+    }
+    const recovery = S.recovery || today.food;
+    if (recovery) addText(w, "🥗 " + recovery, Font.systemFont(big ? 13 : 11), C.muted, big ? 3 : 1).minimumScaleFactor = 0.85;
+  } else {
+    if (analysis) {
+      addText(w, "📊 " + analysis, Font.systemFont(big ? 13 : 11), C.fg, big ? 3 : (today.care ? 1 : 2)).minimumScaleFactor = 0.85;
+      w.addSpacer(3);
+    }
+    if (today.care) {
+      addText(w, today.care, Font.semiboldSystemFont(big ? 13 : 11), C.hard, big ? 2 : 1).minimumScaleFactor = 0.85;
+      w.addSpacer(3);
+    }
+    if (family === "large" && today.detail) {
+      addText(w, today.detail, Font.systemFont(13), C.fg, 5);
+      w.addSpacer(6);
+    }
+    if (today.food) {
+      addText(w, "🍽 " + today.food, Font.systemFont(big ? 13 : 11), C.muted, big ? 3 : 1).minimumScaleFactor = 0.85;
+    }
   }
 
   w.addSpacer();
 
-  if (motivation) {
+  // En moyen, après une séance, la place va aux stats plutôt qu'à la phrase du jour
+  if (motivation && (big || !S)) {
     addText(w, motivation, Font.italicSystemFont(big ? 13 : 11), C.run, big ? 2 : 1).minimumScaleFactor = 0.8;
     w.addSpacer(big ? 10 : 4);
   }

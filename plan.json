@@ -35,7 +35,23 @@
       "emoji": "⚡",
       "care": "🩹 Routine nerf matin et midi. Ce soir : plat, foulée courte et relâchée, douleur > 3/10 → footing lent.",
       "analysis": "Hier : muscu 31 min (au lieu de 45) + 17,5 km de vélo en deux trajets. Gainage de retour, jambes fraîches pour les 800 m de ce soir.",
-      "motivation": "Six fois 800 m, six rendez-vous avec l'allure du semi : ce soir, tu apprends le 3:39."
+      "motivation": "Six fois 800 m, six rendez-vous avec l'allure du semi : ce soir, tu apprends le 3:39.",
+      "done": true,
+      "session": {
+        "strava_ids": [
+          "20664978236"
+        ],
+        "sport": "Run",
+        "km": 10.0,
+        "time": "51:20",
+        "pace": "5:08/km",
+        "cadence": 168,
+        "dplus": 62,
+        "effort": 29,
+        "kcal": 740,
+        "summary": "5 × 600 m à ~3:28/km (au lieu de 6 × 800 m), FC jusqu'à 189. Rapide et régulier ; cardio non capté pendant l'échauffement.",
+        "recovery": "Dans l'heure : riz ou pâtes + 30 g de protéines (œufs, poulet, skyr) + un fruit, 500 ml d'eau. Pas de sucreries tard."
+      }
     },
     "2026-10-21": {
       "tag": "Kiné",
@@ -195,13 +211,15 @@
     },
     "2026-10-19": {
       "target_km": 34,
-      "done_km": 0,
+      "done_km": 10.0,
       "planned_km": {
         "2026-10-20": 10,
         "2026-10-22": 8,
         "2026-10-25": 16
       },
-      "daily_km": {},
+      "daily_km": {
+        "2026-10-20": 10.0
+      },
       "bike_km": 17.5,
       "swim_m": 0
     },
