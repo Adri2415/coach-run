@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -29,20 +29,22 @@
     "2026-10-20": {
       "tag": "Vitesse",
       "kind": "hard",
-      "title": "6 × 800 m · ~10 km",
+      "title": "6 × 800 m · ~10 km au total",
       "detail": "20 min footing + 4 lignes droites. 800 m en 2:52-2:56, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
       "emoji": "⚡",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf matin et midi. Ce soir : plat, foulée courte et relâchée, douleur > 3/10 → footing lent.",
+      "analysis": "Hier : muscu 31 min (au lieu de 45) + 17,5 km de vélo en deux trajets. Gainage de retour, jambes fraîches pour les 800 m de ce soir.",
+      "motivation": "Six fois 800 m, six rendez-vous avec l'allure du semi : ce soir, tu apprends le 3:39."
     },
     "2026-10-21": {
       "tag": "Kiné",
       "kind": "kine",
-      "title": "Kiné · option vélo/natation 40 min",
+      "title": "Kiné · option 40 min de vélo ou natation facile",
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
       "emoji": "🩺",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf + ponts tenus matin et midi. Parle au kiné de la douleur sous la fesse et du test assis."
     },
     "2026-10-22": {
       "tag": "Footing",
@@ -51,7 +53,7 @@
       "detail": "Allure 5:00-5:15/km, en aisance respiratoire.",
       "food": "Journée normale.",
       "emoji": "🏃",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf matin et midi. Footing sur le plat, foulée courte ; douleur > 3/10 → marche."
     },
     "2026-10-23": {
       "tag": "Natation",
@@ -60,7 +62,7 @@
       "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
       "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
       "emoji": "🏊",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf matin et midi. En crawl, battements souples depuis la hanche, sans forcer."
     },
     "2026-10-24": {
       "tag": "Repos",
@@ -69,7 +71,7 @@
       "detail": "Veille de sortie longue.",
       "food": "Portion normale de féculents au dîner.",
       "emoji": "😴",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf + ponts tenus. Journée assise ? Lève-toi toutes les 30-45 min."
     },
     "2026-10-25": {
       "tag": "Sortie longue",
@@ -78,16 +80,16 @@
       "detail": "Allure 4:55-5:15/km, terrain plat, sans relances.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
     "2026-10-26": {
       "tag": "Muscu",
       "kind": "muscu",
       "title": "Gainage + fessiers · 45 min",
-      "detail": "Même séance, +1 répétition par série ou un peu plus lourd sur le hip thrust et la fente bulgare. Copenhague 3×25 s.",
+      "detail": "Même séance, +1 répétition par série ou un peu plus lourd sur le hip thrust et la montée sur marche. Copenhague 3×25 s.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
       "emoji": "🏋️",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
     },
     "2026-10-27": {
       "tag": "Vitesse",
@@ -96,7 +98,7 @@
       "detail": "20 min footing + 4 lignes droites. 1000 m en 3:35-3:38, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
       "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
       "emoji": "⚡",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf matin et midi. Ce soir : plat, foulée courte et relâchée, douleur > 3/10 → footing lent."
     },
     "2026-10-28": {
       "tag": "Kiné",
@@ -141,7 +143,7 @@
       "detail": "Allure 4:55-5:15/km, terrain plat. Si le tendon va bien : 2 derniers km à 4:20.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     }
   },
   "quotes": [
