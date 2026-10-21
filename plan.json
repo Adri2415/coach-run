@@ -60,7 +60,20 @@
       "detail": "Tout en facile, aucune course.",
       "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
       "emoji": "🩺",
-      "care": "🩹 Routine nerf + ponts tenus matin et midi. Parle au kiné de la douleur sous la fesse et du test assis."
+      "care": "🩹 Routine nerf + ponts tenus matin et midi. Parle au kiné de la douleur sous la fesse et du test assis.",
+      "session": {
+        "strava_ids": [
+          "20673691170"
+        ],
+        "sport": "WeightTraining",
+        "time": "46:19",
+        "hr": 76,
+        "effort": 3,
+        "kcal": 129,
+        "summary": "Séance kiné de 46 min faite comme prévu, FC basse (76 moy.) : vraie journée de récup. Pense à lui parler de la gêne sous la fesse et du test assis.",
+        "recovery": "Journée légère : déjeuner/dîner riche en protéines (poulet ou œufs, ~30 g) + légumes, féculents modérés, un kiwi ou agrumes (vit. C) pour le tendon."
+      },
+      "done": true
     },
     "2026-10-22": {
       "tag": "Footing",
@@ -218,7 +231,8 @@
         "2026-10-25": 16
       },
       "daily_km": {
-        "2026-10-20": 10.0
+        "2026-10-20": 10.0,
+        "2026-10-21": 0.0
       },
       "bike_km": 17.5,
       "swim_m": 0
