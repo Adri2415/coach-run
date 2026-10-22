@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-22",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -76,22 +76,25 @@
       "done": true
     },
     "2026-10-22": {
-      "tag": "Footing",
-      "kind": "run",
-      "title": "8 km facile + 4 lignes droites",
-      "detail": "Allure 5:00-5:15/km, en aisance respiratoire.",
-      "food": "Journée normale.",
-      "emoji": "🏃",
-      "care": "🩹 Routine nerf matin et midi. Footing sur le plat, foulée courte ; douleur > 3/10 → marche."
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos · grosse journée + afterwork",
+      "detail": "Footing décalé à demain.",
+      "food": "Peu de féculents, protéines + légumes au déjeuner. Afterwork : un verre d'eau entre chaque verre, mange un vrai truc, arrête tôt.",
+      "care": "🩹 Routine nerf matin et midi. Journée assise : lève-toi toutes les 30-45 min.",
+      "motivation": "Un repos bien placé vaut mieux qu'un footing bâclé.",
+      "done": false
     },
     "2026-10-23": {
-      "tag": "Natation",
-      "kind": "swim",
-      "title": "Natation technique · 1500 m",
-      "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
-      "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
-      "emoji": "🏊",
-      "care": "🩹 Routine nerf matin et midi. En crawl, battements souples depuis la hanche, sans forcer."
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "8 km facile + 4 lignes droites",
+      "detail": "Allure 5:00-5:15/km, en aisance respiratoire. Natation supprimée cette semaine. Plutôt le soir si la nuit a été courte.",
+      "food": "Réhydrate-toi dès le réveil (grand verre d'eau, une pincée de sel). Petit-déj et journée normaux.",
+      "care": "🩹 Routine nerf matin et midi. Footing sur le plat, foulée courte ; douleur > 3/10 → marche.",
+      "done": false
     },
     "2026-10-24": {
       "tag": "Repos",
@@ -227,7 +230,7 @@
       "done_km": 10.0,
       "planned_km": {
         "2026-10-20": 10,
-        "2026-10-22": 8,
+        "2026-10-23": 8,
         "2026-10-25": 16
       },
       "daily_km": {
