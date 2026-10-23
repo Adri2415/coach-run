@@ -87,23 +87,39 @@
       "done": false
     },
     "2026-10-23": {
-      "tag": "Repos",
-      "kind": "rest",
-      "emoji": "😴",
-      "title": "Repos · footing décalé à demain",
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing 5 km EF (vent)",
       "detail": "Trop de vent : footing reporté à samedi.",
       "food": "Jour sans course : protéines + légumes, féculents modérés. Hydrate-toi.",
       "care": "🩹 Routine nerf matin et midi. Journée assise : lève-toi toutes les 30-45 min.",
-      "done": false
+      "done": true,
+      "session": {
+        "strava_ids": [
+          "20699439606"
+        ],
+        "sport": "Run",
+        "km": 5,
+        "time": "28:29",
+        "pace": "5:42/km",
+        "hr": 140,
+        "cadence": 168,
+        "dplus": 85,
+        "effort": 14,
+        "kcal": 358,
+        "summary": "5 km en EF à 5:42/km, FC 140 : bien géré malgré le vent, sans forcer. Cadence 168, pile la limite. Footing de samedi avancé à aujourd'hui.",
+        "recovery": "Déjeuner : poulet ou œufs + grosse portion de légumes, riz ou pain complet en portion modérée, un fruit. Bois 500 ml d'eau."
+      }
     },
     "2026-10-24": {
-      "tag": "Footing",
-      "kind": "run",
-      "title": "8 km facile, sans lignes droites",
-      "detail": "Décalé de vendredi (vent). Allure 5:05-5:20/km, plat, foulée courte. Veille de sortie longue : rien de plus.",
-      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines.",
-      "emoji": "🏃",
-      "care": "🩹 Routine nerf + ponts tenus. Douleur > 3/10 → marche, et raccourcis la sortie longue dimanche."
+      "tag": "Repos",
+      "kind": "rest",
+      "title": "Repos avant la sortie longue",
+      "detail": "Footing fait vendredi. Repos complet, ou 20-30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour les 16 km de dimanche.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
+      "emoji": "😴",
+      "care": "🩹 Routine nerf + ponts tenus + mollets excentriques légers. Douleur > 3/10 → raccourcis la sortie longue dimanche."
     },
     "2026-10-25": {
       "tag": "Sortie longue",
@@ -227,15 +243,16 @@
     },
     "2026-10-19": {
       "target_km": 34,
-      "done_km": 10,
+      "done_km": 15,
       "planned_km": {
         "2026-10-20": 10,
         "2026-10-25": 16,
-        "2026-10-24": 8
+        "2026-10-23": 5
       },
       "daily_km": {
         "2026-10-20": 10,
-        "2026-10-21": 0
+        "2026-10-21": 0,
+        "2026-10-23": 5
       },
       "bike_km": 17.5,
       "swim_m": 0
