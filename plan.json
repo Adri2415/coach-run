@@ -42,7 +42,7 @@
           "20664978236"
         ],
         "sport": "Run",
-        "km": 10.0,
+        "km": 10,
         "time": "51:20",
         "pace": "5:08/km",
         "cadence": 168,
@@ -87,23 +87,23 @@
       "done": false
     },
     "2026-10-23": {
-      "tag": "Footing",
-      "kind": "run",
-      "emoji": "🏃",
-      "title": "8 km facile + 4 lignes droites",
-      "detail": "Allure 5:00-5:15/km, en aisance respiratoire. Natation supprimée cette semaine. Plutôt le soir si la nuit a été courte.",
-      "food": "Réhydrate-toi dès le réveil (grand verre d'eau, une pincée de sel). Petit-déj et journée normaux.",
-      "care": "🩹 Routine nerf matin et midi. Footing sur le plat, foulée courte ; douleur > 3/10 → marche.",
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos · footing décalé à demain",
+      "detail": "Trop de vent : footing reporté à samedi.",
+      "food": "Jour sans course : protéines + légumes, féculents modérés. Hydrate-toi.",
+      "care": "🩹 Routine nerf matin et midi. Journée assise : lève-toi toutes les 30-45 min.",
       "done": false
     },
     "2026-10-24": {
-      "tag": "Repos",
-      "kind": "rest",
-      "title": "Repos ou 1 h de vélo tranquille",
-      "detail": "Veille de sortie longue.",
-      "food": "Portion normale de féculents au dîner.",
-      "emoji": "😴",
-      "care": "🩹 Routine nerf + ponts tenus. Journée assise ? Lève-toi toutes les 30-45 min."
+      "tag": "Footing",
+      "kind": "run",
+      "title": "8 km facile, sans lignes droites",
+      "detail": "Décalé de vendredi (vent). Allure 5:05-5:20/km, plat, foulée courte. Veille de sortie longue : rien de plus.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines.",
+      "emoji": "🏃",
+      "care": "🩹 Routine nerf + ponts tenus. Douleur > 3/10 → marche, et raccourcis la sortie longue dimanche."
     },
     "2026-10-25": {
       "tag": "Sortie longue",
@@ -217,25 +217,25 @@
       "done_km": 31.1,
       "planned_km": {},
       "daily_km": {
-        "2026-10-14": 9.0,
-        "2026-10-15": 5.0,
-        "2026-10-16": 9.0,
-        "2026-10-17": 8.0
+        "2026-10-14": 9,
+        "2026-10-15": 5,
+        "2026-10-16": 9,
+        "2026-10-17": 8
       },
       "bike_km": 27.5,
       "swim_m": 0
     },
     "2026-10-19": {
       "target_km": 34,
-      "done_km": 10.0,
+      "done_km": 10,
       "planned_km": {
         "2026-10-20": 10,
-        "2026-10-23": 8,
-        "2026-10-25": 16
+        "2026-10-25": 16,
+        "2026-10-24": 8
       },
       "daily_km": {
-        "2026-10-20": 10.0,
-        "2026-10-21": 0.0
+        "2026-10-20": 10,
+        "2026-10-21": 0
       },
       "bike_km": 17.5,
       "swim_m": 0
