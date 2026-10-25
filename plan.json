@@ -128,7 +128,24 @@
       "detail": "Allure 4:55-5:15/km, terrain plat, sans relances.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
-      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis.",
+      "session": {
+        "strava_ids": [
+          "20724985984"
+        ],
+        "sport": "Run",
+        "km": 16,
+        "time": "1:23:50",
+        "pace": "5:14/km",
+        "hr": 135,
+        "cadence": 168,
+        "dplus": 154,
+        "effort": 36,
+        "kcal": 1045,
+        "summary": "16 km à 5:14/km, FC 135 : sortie longue conforme au plan, haut de fourchette. Cadence 168 au seuil ; fesse/Achille : douleur > 3/10 → on adapte.",
+        "recovery": "Déjeuner dans l'heure : riz ou pâtes + 30 g de protéines (poulet, œufs ou poisson) + légumes, 500 ml d'eau avec une pincée de sel."
+      },
+      "done": true
     },
     "2026-10-26": {
       "tag": "Muscu",
@@ -243,7 +260,7 @@
     },
     "2026-10-19": {
       "target_km": 34,
-      "done_km": 15,
+      "done_km": 31,
       "planned_km": {
         "2026-10-20": 10,
         "2026-10-25": 16,
@@ -252,7 +269,8 @@
       "daily_km": {
         "2026-10-20": 10,
         "2026-10-21": 0,
-        "2026-10-23": 5
+        "2026-10-23": 5,
+        "2026-10-25": 16
       },
       "bike_km": 17.5,
       "swim_m": 0
