@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-30",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -157,13 +157,13 @@
       "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
     },
     "2026-10-27": {
-      "tag": "Vitesse",
-      "kind": "hard",
-      "title": "5 × 1000 m · ~11 km",
-      "detail": "20 min footing + 4 lignes droites. 1000 m en 3:35-3:38, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
-      "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
-      "emoji": "⚡",
-      "care": "🩹 Routine nerf matin et midi. Ce soir : plat, foulée courte et relâchée, douleur > 3/10 → footing lent."
+      "tag": "Malade",
+      "kind": "rest",
+      "emoji": "🤒",
+      "title": "Malade · séance annulée",
+      "detail": "Pas de rattrapage : on reprend en douceur à partir de vendredi.",
+      "food": "Hydratation, bouillons, fruits riches en vitamine C, protéines à chaque repas. Pas de déficit calorique en étant malade.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-28": {
       "tag": "Kiné",
@@ -175,39 +175,39 @@
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-29": {
-      "tag": "Footing",
-      "kind": "run",
-      "title": "9 km facile + 5 lignes droites",
-      "detail": "Allure 5:00-5:15/km.",
-      "food": "Journée normale.",
-      "emoji": "🏃",
+      "tag": "Malade",
+      "kind": "rest",
+      "emoji": "🤒",
+      "title": "Malade · séance annulée",
+      "detail": "Pas de rattrapage : on reprend en douceur à partir de vendredi.",
+      "food": "Hydratation, bouillons, fruits riches en vitamine C, protéines à chaque repas. Pas de déficit calorique en étant malade.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-30": {
-      "tag": "Natation",
-      "kind": "swim",
-      "title": "Natation technique · 1500 m",
-      "detail": "300 m souple · 6 × 50 m éducatifs (rattrapé, poings fermés) r 20 s · 6 × 100 m crawl allure confortable r 20 s · 200 m dos ou brasse souple",
-      "food": "Jour idéal pour manger plus léger : protéines + légumes, féculents modérés.",
-      "emoji": "🏊",
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "8 km facile · reprise après maladie",
+      "detail": "Allure 5:10-5:30/km, sans lignes droites. Tu dois pouvoir parler, FC sous 145. Fatigue anormale, FC qui grimpe ou fièvre → coupe et rentre en marchant.",
+      "food": "Journée normale, sans restriction : on relance l’organisme. Après : protéines + féculents modérés + légumes, 500 ml d’eau.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-10-31": {
-      "tag": "Repos",
-      "kind": "rest",
-      "title": "Repos ou 1 h de vélo tranquille",
-      "detail": "Veille de sortie longue.",
-      "food": "Portion normale de féculents au dîner.",
-      "emoji": "😴",
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "6 km très facile",
+      "detail": "Allure 5:15-5:35/km, terrain plat. Si tout va bien, 4 lignes droites relâchées de 15 s à la fin, sinon rien. Tendon ou fesse > 3/10 au lever → repos ou vélo facile.",
+      "food": "Veille de sortie longue : portion normale de féculents au dîner (riz, pâtes) + protéines. Hydrate-toi bien.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-11-01": {
       "tag": "Sortie longue",
       "kind": "run",
-      "title": "17 km en endurance fondamentale",
-      "detail": "Allure 4:55-5:15/km, terrain plat. Si le tendon va bien : 2 derniers km à 4:20.",
-      "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
       "emoji": "🏃",
+      "title": "13 km en endurance fondamentale",
+      "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale : 3e jour de course d’affilée après la maladie. Si tu te sens très bien, tu peux aller jusqu’à 14 km, pas plus.",
+      "food": "Petit-déj 2 h avant, eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     }
   },
@@ -276,12 +276,12 @@
       "swim_m": 0
     },
     "2026-10-26": {
-      "target_km": 37,
+      "target_km": 27,
       "done_km": 0,
       "planned_km": {
-        "2026-10-27": 11,
-        "2026-10-29": 9,
-        "2026-11-01": 17
+        "2026-10-30": 8,
+        "2026-10-31": 6,
+        "2026-11-01": 13
       },
       "daily_km": {},
       "bike_km": 0,
