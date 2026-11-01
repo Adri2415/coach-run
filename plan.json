@@ -208,7 +208,23 @@
       "title": "13 km en endurance fondamentale",
       "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale : 3e jour de course d’affilée après la maladie. Si tu te sens très bien, tu peux aller jusqu’à 14 km, pas plus.",
       "food": "Petit-déj 2 h avant, eau pendant. Féculents + 30 g de protéines dans l’heure après.",
-      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis.",
+      "session": {
+        "strava_ids": [
+          "20816985850"
+        ],
+        "sport": "Run",
+        "km": 23,
+        "time": "2:03:33",
+        "pace": "5:22/km",
+        "cadence": 167,
+        "dplus": 148,
+        "effort": 8,
+        "kcal": 1701,
+        "summary": "23 km à 5:22/km au lieu des 13 prévus, 1re sortie depuis la maladie : gros écart. Cadence 167 (<168). Gêne Achille/fesse > 3/10 → repos demain.",
+        "recovery": "Déjeuner dans l’heure : riz ou pâtes + 30 g de protéines (poulet, œufs), 750 ml d’eau avec une pincée de sel. Pas de restriction ce soir."
+      },
+      "done": true
     }
   },
   "quotes": [
@@ -277,13 +293,15 @@
     },
     "2026-10-26": {
       "target_km": 27,
-      "done_km": 0,
+      "done_km": 23,
       "planned_km": {
         "2026-10-30": 8,
         "2026-10-31": 6,
         "2026-11-01": 13
       },
-      "daily_km": {},
+      "daily_km": {
+        "2026-11-01": 23
+      },
       "bike_km": 0,
       "swim_m": 0
     }
