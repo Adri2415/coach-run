@@ -1,152 +1,8 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
-    "2026-10-18": {
-      "tag": "Repos",
-      "kind": "rest",
-      "title": "Repos ou vélo facile",
-      "detail": "Pas de course aujourd'hui : la semaine est bouclée à 31 km.",
-      "food": "Protéines à chaque repas, féculents modérés.",
-      "analysis": "Hier : 8,0 km à 5:12/km, effort relatif 15. Footing bien maîtrisé, tu boucles la semaine à 31 km sans forcer.",
-      "motivation": "Le semi de Paris se court sur 21,1 km, mais il se gagne sur 20 semaines.",
-      "emoji": "😴",
-      "care": "🩹 Démarre aujourd'hui : glissements du nerf (2 × 10) + ponts tenus. Pas d'étirements."
-    },
-    "2026-10-19": {
-      "tag": "Muscu",
-      "kind": "muscu",
-      "title": "Gainage + fessiers · 45 min",
-      "detail": "Hip thrust 4×8-10 · Montée sur marche basse 3×10 (à la place de la fente bulgare) · Pont ischios tenu 4×30 s · Marche latérale 3×12 · Dead bug 3×10 · Pallof 3×10 · Copenhague 3×20 s · Bird dog 3×8",
-      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d'après.",
-      "emoji": "🏋️",
-      "care": "🩹 Routine nerf + ponts tenus matin et midi. Muscu : ni soulevé jambes tendues ni fente profonde.",
-      "analysis": "Hier : repos complet, aucune activité Strava. Parfait pour attaquer frais une semaine à 34 km, avec tes premiers 800 m demain.",
-      "motivation": "Des fessiers solides aujourd'hui, une foulée qui pousse mieux demain sur les 800 m.",
-      "done": true
-    },
-    "2026-10-20": {
-      "tag": "Vitesse",
-      "kind": "hard",
-      "title": "6 × 800 m · ~10 km au total",
-      "detail": "20 min footing + 4 lignes droites. 800 m en 2:52-2:56, récup 1:30 trot. 10 min retour au calme. Sur le plat, foulée relâchée. Douleur sous la fesse > 3/10 → finis en footing lent.",
-      "food": "Féculents au déjeuner, collation 1h30 avant. Dîner féculents + protéines.",
-      "emoji": "⚡",
-      "care": "🩹 Routine nerf matin et midi. Ce soir : plat, foulée courte et relâchée, douleur > 3/10 → footing lent.",
-      "analysis": "Hier : muscu 31 min (au lieu de 45) + 17,5 km de vélo en deux trajets. Gainage de retour, jambes fraîches pour les 800 m de ce soir.",
-      "motivation": "Six fois 800 m, six rendez-vous avec l'allure du semi : ce soir, tu apprends le 3:39.",
-      "done": true,
-      "session": {
-        "strava_ids": [
-          "20664978236"
-        ],
-        "sport": "Run",
-        "km": 10,
-        "time": "51:20",
-        "pace": "5:08/km",
-        "cadence": 168,
-        "dplus": 62,
-        "effort": 29,
-        "kcal": 740,
-        "summary": "5 × 600 m à ~3:28/km (au lieu de 6 × 800 m), FC jusqu'à 189. Rapide et régulier ; cardio non capté pendant l'échauffement.",
-        "recovery": "Dans l'heure : riz ou pâtes + 30 g de protéines (œufs, poulet, skyr) + un fruit, 500 ml d'eau. Pas de sucreries tard."
-      }
-    },
-    "2026-10-21": {
-      "tag": "Kiné",
-      "kind": "kine",
-      "title": "Kiné · option 40 min de vélo ou natation facile",
-      "detail": "Tout en facile, aucune course.",
-      "food": "Peu de féculents, protéines à chaque repas, beaucoup de légumes.",
-      "emoji": "🩺",
-      "care": "🩹 Routine nerf + ponts tenus matin et midi. Parle au kiné de la douleur sous la fesse et du test assis.",
-      "session": {
-        "strava_ids": [
-          "20673691170"
-        ],
-        "sport": "WeightTraining",
-        "time": "46:19",
-        "hr": 76,
-        "effort": 3,
-        "kcal": 129,
-        "summary": "Séance kiné de 46 min faite comme prévu, FC basse (76 moy.) : vraie journée de récup. Pense à lui parler de la gêne sous la fesse et du test assis.",
-        "recovery": "Journée légère : déjeuner/dîner riche en protéines (poulet ou œufs, ~30 g) + légumes, féculents modérés, un kiwi ou agrumes (vit. C) pour le tendon."
-      },
-      "done": true
-    },
-    "2026-10-22": {
-      "tag": "Repos",
-      "kind": "rest",
-      "emoji": "😴",
-      "title": "Repos · grosse journée + afterwork",
-      "detail": "Footing décalé à demain.",
-      "food": "Peu de féculents, protéines + légumes au déjeuner. Afterwork : un verre d'eau entre chaque verre, mange un vrai truc, arrête tôt.",
-      "care": "🩹 Routine nerf matin et midi. Journée assise : lève-toi toutes les 30-45 min.",
-      "motivation": "Un repos bien placé vaut mieux qu'un footing bâclé.",
-      "done": false
-    },
-    "2026-10-23": {
-      "tag": "Footing",
-      "kind": "run",
-      "emoji": "🏃",
-      "title": "Footing 5 km EF (vent)",
-      "detail": "Footing finalement fait malgré le vent : allure libre, facile, foulée courte.",
-      "food": "Jour sans course : protéines + légumes, féculents modérés. Hydrate-toi.",
-      "care": "🩹 Routine nerf matin et midi. Journée assise : lève-toi toutes les 30-45 min.",
-      "done": true,
-      "session": {
-        "strava_ids": [
-          "20699439606"
-        ],
-        "sport": "Run",
-        "km": 5,
-        "time": "28:29",
-        "pace": "5:42/km",
-        "hr": 140,
-        "cadence": 168,
-        "dplus": 85,
-        "effort": 14,
-        "kcal": 358,
-        "summary": "5 km en EF à 5:42/km, FC 140 : bien géré malgré le vent, sans forcer. Cadence 168, pile la limite. Footing de samedi avancé à aujourd'hui.",
-        "recovery": "Déjeuner : poulet ou œufs + grosse portion de légumes, riz ou pain complet en portion modérée, un fruit. Bois 500 ml d'eau."
-      }
-    },
-    "2026-10-24": {
-      "tag": "Repos",
-      "kind": "rest",
-      "title": "Repos avant la sortie longue",
-      "detail": "Footing fait vendredi. Repos complet, ou 20-30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour les 16 km de dimanche.",
-      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
-      "emoji": "😴",
-      "care": "🩹 Routine nerf + ponts tenus + mollets excentriques légers. Douleur > 3/10 → raccourcis la sortie longue dimanche."
-    },
-    "2026-10-25": {
-      "tag": "Sortie longue",
-      "kind": "run",
-      "title": "16 km en endurance fondamentale",
-      "detail": "Allure 4:55-5:15/km, terrain plat, sans relances.",
-      "food": "Petit-déj 2 h avant, eau pendant. Féculents + protéines dans l'heure après.",
-      "emoji": "🏃",
-      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis.",
-      "session": {
-        "strava_ids": [
-          "20724985984"
-        ],
-        "sport": "Run",
-        "km": 16,
-        "time": "1:23:50",
-        "pace": "5:14/km",
-        "hr": 135,
-        "cadence": 168,
-        "dplus": 154,
-        "effort": 36,
-        "kcal": 1045,
-        "summary": "16 km à 5:14/km, FC 135 : sortie longue conforme au plan, haut de fourchette. Cadence 168 au seuil ; fesse/Achille : douleur > 3/10 → on adapte.",
-        "recovery": "Déjeuner dans l'heure : riz ou pâtes + 30 g de protéines (poulet, œufs ou poisson) + légumes, 500 ml d'eau avec une pincée de sel."
-      },
-      "done": true
-    },
     "2026-10-26": {
       "tag": "Muscu",
       "kind": "muscu",
@@ -225,6 +81,323 @@
         "recovery": "Déjeuner dans l’heure : riz ou pâtes + 30 g de protéines (poulet, œufs), 750 ml d’eau avec une pincée de sel. Pas de restriction ce soir."
       },
       "done": true
+    },
+    "2026-11-02": {
+      "tag": "Muscu",
+      "kind": "muscu",
+      "emoji": "🏋️",
+      "title": "Gainage + fessiers · 30 min allégée",
+      "detail": "23 km hier : 2 séries seulement, mêmes charges, sans montée sur marche si le tendon tire. Talon ou fesse > 3/10 au lever → repos complet et routine nerf.",
+      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde.",
+      "analysis": "23 km à 5:22/km hier au lieu des 5-6 km ou 13 km prévus, juste après la maladie, cadence 167 : gros écart, à absorber cette semaine.",
+      "motivation": "Hier tu as prouvé que le moteur est là. Cette semaine, on protège le tendon."
+    },
+    "2026-11-03": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 7 km (vitesse reportée)",
+      "detail": "Les 4 × 3 min sont reportés à mardi prochain : pas de qualité deux jours après 23 km imprévus. Allure 5:15-5:35/km, sur le plat. Douleur sous la fesse > 3/10 → marche et rentre.",
+      "food": "Déjeuner normal, une banane 1 h avant. Dîner : protéines + légumes + féculents modérés.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-04": {
+      "tag": "Kiné",
+      "kind": "kine",
+      "emoji": "🩺",
+      "title": "Kiné · option 40 min de vélo facile",
+      "detail": "Raconte-lui les 23 km et la gêne d’après. Vélo seulement si les jambes sont fraîches.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-05": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 7 km",
+      "detail": "Allure 5:10-5:30/km, en aisance respiratoire, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-06": {
+      "tag": "Natation",
+      "kind": "swim",
+      "emoji": "🏊",
+      "title": "Natation technique · 1500 m",
+      "detail": "300 m échauffement varié. 8 × 50 m éducatifs, récup 20 s. 4 × 100 m crawl souple, récup 30 s. 200 m pull-buoy. 200 m retour au calme.",
+      "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-07": {
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos avant la sortie longue",
+      "detail": "Repos complet, ou 30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour dimanche.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-08": {
+      "tag": "Sortie longue",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "13 km en endurance fondamentale",
+      "detail": "Allure 5:05-5:25/km, terrain plat, sans relances ni côtes, et 13 km veut dire 13 km cette fois. Jambes lourdes ou douleur → 10 km.",
+      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+    },
+    "2026-11-09": {
+      "tag": "Muscu",
+      "kind": "muscu",
+      "emoji": "🏋️",
+      "title": "Gainage + fessiers · 45 min",
+      "detail": "Séance complète : 3 séries, mêmes charges qu’avant la maladie. Copenhague en version genou.",
+      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+    },
+    "2026-11-10": {
+      "tag": "Vitesse",
+      "kind": "hard",
+      "emoji": "⚡",
+      "title": "4 × 3 min allure semi · 8 km",
+      "detail": "20 min footing + 3 lignes droites. 4 × 3 min à 3:42-3:48/km sans forcer, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
+      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
+      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+    },
+    "2026-11-11": {
+      "tag": "Kiné",
+      "kind": "kine",
+      "emoji": "🩺",
+      "title": "Kiné (férié) · option 40 min de vélo facile",
+      "detail": "Mercredi 11 novembre, jour férié : si le kiné est fermé, 40 min de vélo facile et routine nerf.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-12": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 8 km",
+      "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-13": {
+      "tag": "Natation",
+      "kind": "swim",
+      "emoji": "🏊",
+      "title": "Natation technique · 1600 m",
+      "detail": "300 m échauffement. 8 × 50 m éducatifs, récup 20 s. 5 × 100 m crawl souple, récup 30 s. 200 m pull-buoy. 200 m retour au calme.",
+      "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-14": {
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos avant la sortie longue",
+      "detail": "Repos complet, ou 30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour dimanche.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-15": {
+      "tag": "Sortie longue",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "14 km en endurance fondamentale",
+      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 11 km.",
+      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+    },
+    "2026-11-16": {
+      "tag": "Muscu",
+      "kind": "muscu",
+      "emoji": "🏋️",
+      "title": "Gainage + fessiers · 45 min",
+      "detail": "3 séries, +1 répétition ou un peu plus lourd sur le hip thrust et la montée sur marche si tout va bien.",
+      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+    },
+    "2026-11-17": {
+      "tag": "Vitesse",
+      "kind": "hard",
+      "emoji": "⚡",
+      "title": "5 × 3 min allure semi · 9 km",
+      "detail": "20 min footing + 3 lignes droites. 5 × 3 min à 3:42-3:46/km, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
+      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
+      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+    },
+    "2026-11-18": {
+      "tag": "Kiné",
+      "kind": "kine",
+      "emoji": "🩺",
+      "title": "Kiné · option 40 min de vélo facile",
+      "detail": "Point sur le tendon et la fesse après deux semaines de reprise.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-19": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 9 km",
+      "detail": "Allure 5:00-5:20/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-20": {
+      "tag": "Natation",
+      "kind": "swim",
+      "emoji": "🏊",
+      "title": "Natation technique · 1800 m",
+      "detail": "300 m échauffement. 8 × 50 m éducatifs, récup 20 s. 6 × 100 m crawl souple, récup 30 s. 300 m pull-buoy. 200 m retour au calme.",
+      "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-21": {
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos avant la sortie longue",
+      "detail": "Repos complet, ou 30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour dimanche.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-22": {
+      "tag": "Sortie longue",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "15 km en endurance fondamentale",
+      "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 12 km.",
+      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+    },
+    "2026-11-23": {
+      "tag": "Muscu",
+      "kind": "muscu",
+      "emoji": "🏋️",
+      "title": "Gainage + fessiers · 45 min",
+      "detail": "4 séries sur le hip thrust et le gainage, 3 sur le reste. Pas de sauts ni de pliométrie.",
+      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+    },
+    "2026-11-24": {
+      "tag": "Vitesse",
+      "kind": "hard",
+      "emoji": "⚡",
+      "title": "4 × 1000 m allure semi · 9 km",
+      "detail": "20 min footing + 3 lignes droites. 4 × 1000 m à 3:40-3:45/km, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
+      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
+      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+    },
+    "2026-11-25": {
+      "tag": "Kiné",
+      "kind": "kine",
+      "emoji": "🩺",
+      "title": "Kiné · option 40 min de vélo facile",
+      "detail": "Fais le point sur la charge : quatre footings cette semaine.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-26": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 7 km",
+      "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-27": {
+      "tag": "Natation",
+      "kind": "swim",
+      "emoji": "🏊",
+      "title": "Natation technique · 1800 m",
+      "detail": "300 m échauffement. 8 × 50 m éducatifs, récup 20 s. 6 × 100 m crawl souple, récup 30 s. 300 m pull-buoy. 200 m retour au calme.",
+      "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-28": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing très facile · 5 km",
+      "detail": "Allure 5:20-5:40/km, sur le plat. Talon ou fesse > 3/10 → repos, sans rattrapage.",
+      "food": "Veille de sortie longue : portion normale de féculents au dîner + protéines, jamais de restriction. Hydrate-toi bien.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-11-29": {
+      "tag": "Sortie longue",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "15 km en endurance fondamentale",
+      "detail": "Allure 5:00-5:20/km, sur le plat, sur des jambes qui ont couru la veille. Jambes lourdes ou douleur → 12 km.",
+      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+    },
+    "2026-11-30": {
+      "tag": "Muscu",
+      "kind": "muscu",
+      "emoji": "🏋️",
+      "title": "Gainage + fessiers · 40 min",
+      "detail": "Semaine de décharge : 3 séries, mêmes charges que la semaine dernière, sans chercher à progresser.",
+      "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+    },
+    "2026-12-01": {
+      "tag": "Vitesse",
+      "kind": "hard",
+      "emoji": "⚡",
+      "title": "4 × 3 min allure semi · 8 km",
+      "detail": "20 min footing + 3 lignes droites. 4 × 3 min à 3:40-3:45/km, relâché, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
+      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
+      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+    },
+    "2026-12-02": {
+      "tag": "Kiné",
+      "kind": "kine",
+      "emoji": "🩺",
+      "title": "Kiné · option 40 min de vélo facile",
+      "detail": "Bilan du mois : on décide ensemble si une deuxième séance de qualité est possible en décembre.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-12-03": {
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 7 km",
+      "detail": "Allure 5:10-5:30/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+    },
+    "2026-12-04": {
+      "tag": "Natation",
+      "kind": "swim",
+      "emoji": "🏊",
+      "title": "Natation technique · 1500 m",
+      "detail": "300 m échauffement varié. 8 × 50 m éducatifs, récup 20 s. 4 × 100 m crawl souple, récup 30 s. 200 m pull-buoy. 200 m retour au calme.",
+      "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-12-05": {
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos avant la sortie longue",
+      "detail": "Repos complet, ou 30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour dimanche.",
+      "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-12-06": {
+      "tag": "Sortie longue",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "12 km en endurance fondamentale",
+      "detail": "Décharge : 5:05-5:25/km, sur le plat, en gardant de la réserve. Tu dois finir avec l’envie d’en faire plus.",
+      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     }
   },
   "quotes": [
@@ -302,6 +475,67 @@
       "daily_km": {
         "2026-11-01": 23
       },
+      "bike_km": 0,
+      "swim_m": 0
+    },
+    "2026-11-02": {
+      "target_km": 27,
+      "done_km": 0,
+      "planned_km": {
+        "2026-11-03": 7,
+        "2026-11-05": 7,
+        "2026-11-08": 13
+      },
+      "daily_km": {},
+      "bike_km": 0,
+      "swim_m": 0
+    },
+    "2026-11-09": {
+      "target_km": 30,
+      "done_km": 0,
+      "planned_km": {
+        "2026-11-10": 8,
+        "2026-11-12": 8,
+        "2026-11-15": 14
+      },
+      "daily_km": {},
+      "bike_km": 0,
+      "swim_m": 0
+    },
+    "2026-11-16": {
+      "target_km": 33,
+      "done_km": 0,
+      "planned_km": {
+        "2026-11-17": 9,
+        "2026-11-19": 9,
+        "2026-11-22": 15
+      },
+      "daily_km": {},
+      "bike_km": 0,
+      "swim_m": 0
+    },
+    "2026-11-23": {
+      "target_km": 36,
+      "done_km": 0,
+      "planned_km": {
+        "2026-11-24": 9,
+        "2026-11-26": 7,
+        "2026-11-28": 5,
+        "2026-11-29": 15
+      },
+      "daily_km": {},
+      "bike_km": 0,
+      "swim_m": 0
+    },
+    "2026-11-30": {
+      "target_km": 27,
+      "done_km": 0,
+      "planned_km": {
+        "2026-12-01": 8,
+        "2026-12-03": 7,
+        "2026-12-06": 12
+      },
+      "daily_km": {},
       "bike_km": 0,
       "swim_m": 0
     }
