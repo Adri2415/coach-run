@@ -91,7 +91,22 @@
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
       "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde.",
       "analysis": "23 km à 5:22/km hier au lieu des 5-6 km ou 13 km prévus, juste après la maladie, cadence 167 : gros écart, à absorber cette semaine.",
-      "motivation": "Hier tu as prouvé que le moteur est là. Cette semaine, on protège le tendon."
+      "motivation": "Hier tu as prouvé que le moteur est là. Cette semaine, on protège le tendon.",
+      "session": {
+        "strava_ids": [
+          "20831554678"
+        ],
+        "sport": "Ride",
+        "km": 9,
+        "time": "24:41",
+        "pace": "21,9 km/h",
+        "hr": 111,
+        "dplus": 58,
+        "effort": 4,
+        "kcal": 197,
+        "summary": "Vélo en ville ce matin : 9 km à 21,9 km/h, FC 111, tranquille. Muscu allégée pas encore enregistrée sur Strava : 2 séries, règle douleur > 3/10.",
+        "recovery": "Dîner léger riche en protéines : œufs ou poisson, légumes, petite portion de riz. Muscu faite ? Monte à 30-40 g de protéines (skyr, poulet)."
+      }
     },
     "2026-11-03": {
       "tag": "Footing",
@@ -486,8 +501,10 @@
         "2026-11-05": 7,
         "2026-11-08": 13
       },
-      "daily_km": {},
-      "bike_km": 0,
+      "daily_km": {
+        "2026-11-02": 0
+      },
+      "bike_km": 9,
       "swim_m": 0
     },
     "2026-11-09": {
