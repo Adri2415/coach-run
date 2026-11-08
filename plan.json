@@ -176,7 +176,22 @@
       "title": "13 km en endurance fondamentale",
       "detail": "Allure 5:05-5:25/km, terrain plat, sans relances ni côtes, et 13 km veut dire 13 km cette fois. Jambes lourdes ou douleur → 10 km.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
-      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
+      "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis.",
+      "session": {
+        "strava_ids": [
+          "20908140453"
+        ],
+        "sport": "Run",
+        "km": 20,
+        "time": "1:50:35",
+        "pace": "5:31/km",
+        "cadence": 167,
+        "dplus": 127,
+        "kcal": 1452,
+        "summary": "20 km à 5:31/km au lieu des 13 prévus, soit 38 km en 2 jours (cible semaine 27). Cadence 167 < 168. Tendon à surveiller demain matin : douleur > 3/10 = stop.",
+        "recovery": "Déjeuner dans l'heure : riz ou pâtes + poulet ou œufs (30 g de protéines), légumes, fruit ; 500 ml d'eau. Dîner normal avec féculents, pas de restriction."
+      },
+      "done": true
     },
     "2026-11-09": {
       "tag": "Muscu",
@@ -511,7 +526,7 @@
     },
     "2026-11-02": {
       "target_km": 27,
-      "done_km": 18,
+      "done_km": 38,
       "planned_km": {
         "2026-11-03": 7,
         "2026-11-05": 7,
@@ -519,7 +534,8 @@
       },
       "daily_km": {
         "2026-11-02": 0,
-        "2026-11-07": 18
+        "2026-11-07": 18,
+        "2026-11-08": 20
       },
       "bike_km": 9,
       "swim_m": 0
