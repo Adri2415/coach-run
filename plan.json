@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-08",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -197,8 +197,8 @@
       "tag": "Muscu",
       "kind": "muscu",
       "emoji": "🏋️",
-      "title": "Gainage + fessiers · 45 min",
-      "detail": "Séance complète : 3 séries, mêmes charges qu’avant la maladie. Copenhague en version genou.",
+      "title": "Gainage + fessiers · 45 min · option 5 km facile",
+      "detail": "Option petite sortie : 5 km max, très facile et sur le plat, seulement si talon et fesse ≤ 3/10 au lever (sinon vélo). Ces km se retirent du footing de jeudi. Séance complète : 3 séries, mêmes charges qu’avant la maladie. Copenhague en version genou.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
       "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
     },
@@ -224,7 +224,7 @@
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 8 km",
+      "title": "Footing facile · 10 km",
       "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
       "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
@@ -251,8 +251,8 @@
       "tag": "Sortie longue",
       "kind": "run",
       "emoji": "🏃",
-      "title": "14 km en endurance fondamentale",
-      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 11 km.",
+      "title": "16 km en endurance fondamentale",
+      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 13 km.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
@@ -287,7 +287,7 @@
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 9 km",
+      "title": "Footing facile · 10 km",
       "detail": "Allure 5:00-5:20/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
       "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
@@ -314,8 +314,8 @@
       "tag": "Sortie longue",
       "kind": "run",
       "emoji": "🏃",
-      "title": "15 km en endurance fondamentale",
-      "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 12 km.",
+      "title": "18 km en endurance fondamentale",
+      "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 14 km.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
@@ -332,7 +332,7 @@
       "tag": "Vitesse",
       "kind": "hard",
       "emoji": "⚡",
-      "title": "4 × 1000 m allure semi · 9 km",
+      "title": "4 × 1000 m allure semi · 10 km",
       "detail": "20 min footing + 3 lignes droites. 4 × 1000 m à 3:40-3:45/km, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
       "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
       "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
@@ -350,7 +350,7 @@
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 7 km",
+      "title": "Footing facile · 8 km",
       "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
       "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
@@ -377,8 +377,8 @@
       "tag": "Sortie longue",
       "kind": "run",
       "emoji": "🏃",
-      "title": "15 km en endurance fondamentale",
-      "detail": "Allure 5:00-5:20/km, sur le plat, sur des jambes qui ont couru la veille. Jambes lourdes ou douleur → 12 km.",
+      "title": "17 km en endurance fondamentale",
+      "detail": "Allure 5:00-5:20/km, sur le plat, sur des jambes qui ont couru la veille. Jambes lourdes ou douleur → 14 km.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
@@ -413,7 +413,7 @@
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 7 km",
+      "title": "Footing facile · 8 km",
       "detail": "Allure 5:10-5:30/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
       "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
@@ -440,7 +440,7 @@
       "tag": "Sortie longue",
       "kind": "run",
       "emoji": "🏃",
-      "title": "12 km en endurance fondamentale",
+      "title": "14 km en endurance fondamentale",
       "detail": "Décharge : 5:05-5:25/km, sur le plat, en gardant de la réserve. Tu dois finir avec l’envie d’en faire plus.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
@@ -541,49 +541,49 @@
       "swim_m": 0
     },
     "2026-11-09": {
-      "target_km": 30,
+      "target_km": 34,
       "done_km": 0,
       "planned_km": {
         "2026-11-10": 8,
-        "2026-11-12": 8,
-        "2026-11-15": 14
+        "2026-11-12": 10,
+        "2026-11-15": 16
       },
       "daily_km": {},
       "bike_km": 0,
       "swim_m": 0
     },
     "2026-11-16": {
-      "target_km": 33,
+      "target_km": 37,
       "done_km": 0,
       "planned_km": {
         "2026-11-17": 9,
-        "2026-11-19": 9,
-        "2026-11-22": 15
+        "2026-11-19": 10,
+        "2026-11-22": 18
       },
       "daily_km": {},
       "bike_km": 0,
       "swim_m": 0
     },
     "2026-11-23": {
-      "target_km": 36,
+      "target_km": 40,
       "done_km": 0,
       "planned_km": {
-        "2026-11-24": 9,
-        "2026-11-26": 7,
+        "2026-11-24": 10,
+        "2026-11-26": 8,
         "2026-11-28": 5,
-        "2026-11-29": 15
+        "2026-11-29": 17
       },
       "daily_km": {},
       "bike_km": 0,
       "swim_m": 0
     },
     "2026-11-30": {
-      "target_km": 27,
+      "target_km": 30,
       "done_km": 0,
       "planned_km": {
         "2026-12-01": 8,
-        "2026-12-03": 7,
-        "2026-12-06": 12
+        "2026-12-03": 8,
+        "2026-12-06": 14
       },
       "daily_km": {},
       "bike_km": 0,
