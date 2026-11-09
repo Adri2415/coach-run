@@ -200,7 +200,21 @@
       "title": "Gainage + fessiers · 45 min · option 5 km facile",
       "detail": "Option petite sortie : 5 km max, très facile et sur le plat, seulement si talon et fesse ≤ 3/10 au lever (sinon vélo). Ces km se retirent du footing de jeudi. Séance complète : 3 séries, mêmes charges qu’avant la maladie. Copenhague en version genou.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
-      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde.",
+      "session": {
+        "strava_ids": [
+          "20922782060"
+        ],
+        "sport": "Run",
+        "km": 7,
+        "time": "39:19",
+        "pace": "5:36/km",
+        "cadence": 165,
+        "dplus": 31,
+        "kcal": 518,
+        "summary": "7 km à 5:36/km (option 5 km max), hachés par 48 min d'arrêts. Cadence 165 < 168, muscu non enregistrée. Km à retirer de jeudi ; douleur > 3/10 = stop.",
+        "recovery": "Dîner : poulet, poisson ou œufs (30 g de protéines), légumes, petite portion de riz. Muscu faite ? Monte à 30-40 g et ajoute un kiwi pour le tendon."
+      }
     },
     "2026-11-10": {
       "tag": "Vitesse",
@@ -542,13 +556,15 @@
     },
     "2026-11-09": {
       "target_km": 34,
-      "done_km": 0,
+      "done_km": 7,
       "planned_km": {
         "2026-11-10": 8,
         "2026-11-12": 10,
         "2026-11-15": 16
       },
-      "daily_km": {},
+      "daily_km": {
+        "2026-11-09": 7
+      },
       "bike_km": 0,
       "swim_m": 0
     },
