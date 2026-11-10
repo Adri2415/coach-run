@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-10",
   "page": "https://claude.ai/artifact/CeMCEbcdUuo3chzsc7Y2ey",
   "note": "Règle tendon : douleur au lever > 3/10 → vélo ou natation à la place.",
   "days": {
@@ -217,39 +217,39 @@
       }
     },
     "2026-11-10": {
-      "tag": "Vitesse",
-      "kind": "hard",
-      "emoji": "⚡",
-      "title": "4 × 3 min allure semi · 8 km",
-      "detail": "20 min footing + 3 lignes droites. 4 × 3 min à 3:42-3:48/km sans forcer, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
-      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
-      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
-    },
-    "2026-11-11": {
-      "tag": "Kiné",
-      "kind": "kine",
-      "emoji": "🩺",
-      "title": "Kiné (férié) · option 40 min de vélo facile",
-      "detail": "Mercredi 11 novembre, jour férié : si le kiné est fermé, 40 min de vélo facile et routine nerf.",
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos · pas de vitesse cette semaine",
+      "detail": "Pas de course aujourd’hui : footing avec les copains demain. Vitesse suspendue jusqu’au kiné du mercredi 18 à cause des ischios. 30 min de vélo très facile possible si tu as envie de bouger.",
       "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
-    "2026-11-12": {
+    "2026-11-11": {
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 10 km",
-      "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
-      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
-      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
+      "title": "Footing avec les copains · ~10 km facile",
+      "detail": "Férié. Allure 5:05-5:25/km, en aisance respiratoire : ne te laisse pas embarquer par le groupe. Sur le plat, 172-175 pas/min. Fesse ou talon > 3/10 → tu raccourcis. Remplace le footing de jeudi.",
+      "food": "Petit-déj léger 1h30 avant (pain + miel, banane). Après : protéines + légumes, féculents modérés.",
+      "care": "🩹 Routine nerf le matin. Pas de côtes ni d’accélérations ; douleur > 3/10 → marche."
     },
-    "2026-11-13": {
+    "2026-11-12": {
       "tag": "Natation",
       "kind": "swim",
       "emoji": "🏊",
       "title": "Natation technique · 1600 m",
-      "detail": "300 m échauffement. 8 × 50 m éducatifs, récup 20 s. 5 × 100 m crawl souple, récup 30 s. 200 m pull-buoy. 200 m retour au calme.",
+      "detail": "Déplacée de vendredi. 300 m échauffement. 8 × 50 m éducatifs, récup 20 s. 5 × 100 m crawl souple, récup 30 s. 200 m pull-buoy. 200 m retour au calme.",
       "food": "Journée légère : protéines + légumes au déjeuner, féculents modérés. Un skyr après la piscine si tu as faim.",
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+    },
+    "2026-11-13": {
+      "tag": "Vélo",
+      "kind": "bike",
+      "emoji": "🚴",
+      "title": "Vélo facile 40 min ou repos",
+      "detail": "Pédalage souple, sans forcer, pour faire tourner les jambes sans charger les ischios. Repos complet si la fesse tire.",
+      "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
     "2026-11-14": {
@@ -266,7 +266,7 @@
       "kind": "run",
       "emoji": "🏃",
       "title": "16 km en endurance fondamentale",
-      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 13 km.",
+      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou ischios qui tirent → 13 km.",
       "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
@@ -280,20 +280,20 @@
       "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
     },
     "2026-11-17": {
-      "tag": "Vitesse",
-      "kind": "hard",
-      "emoji": "⚡",
-      "title": "5 × 3 min allure semi · 9 km",
-      "detail": "20 min footing + 3 lignes droites. 5 × 3 min à 3:42-3:46/km, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
-      "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
-      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+      "tag": "Footing",
+      "kind": "run",
+      "emoji": "🏃",
+      "title": "Footing facile · 9 km (pas de vitesse)",
+      "detail": "Vitesse suspendue jusqu’au kiné de demain. Allure 5:05-5:25/km, sur le plat, sans lignes droites. 172-175 pas/min.",
+      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Dîner : protéines + légumes, petite portion de féculents.",
+      "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
     },
     "2026-11-18": {
       "tag": "Kiné",
       "kind": "kine",
       "emoji": "🩺",
       "title": "Kiné · option 40 min de vélo facile",
-      "detail": "Point sur le tendon et la fesse après deux semaines de reprise.",
+      "detail": "Point sur le tendon, la fesse et les ischios. On décide avec le kiné de la reprise de la vitesse.",
       "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
     },
@@ -558,8 +558,7 @@
       "target_km": 34,
       "done_km": 7,
       "planned_km": {
-        "2026-11-10": 8,
-        "2026-11-12": 10,
+        "2026-11-11": 10,
         "2026-11-15": 16
       },
       "daily_km": {
