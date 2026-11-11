@@ -235,18 +235,21 @@
       "care": "🩹 Routine nerf le matin. Pas de côtes ni d’accélérations ; douleur > 3/10 → marche.",
       "session": {
         "strava_ids": [
-          "20944913208"
+          "20944913208",
+          "20945915292"
         ],
         "sport": "Run",
-        "km": 4.2,
-        "time": "27:03",
-        "pace": "6:27/km",
-        "cadence": 160,
-        "effort": 4,
-        "kcal": 303,
-        "summary": "4,2 km à 6:27/km au lieu de ~10 km, 23 min d’arrêts et 2 accélérations non prévues. Cadence 160 < 168. Fesse/talon > 3/10 → stop et marche.",
-        "recovery": "Déjeuner : 30 g de protéines (œufs, thon ou poulet), légumes, petite part de riz ou pain complet. Bien t’hydrater, pas besoin de plus."
-      }
+        "km": 9.2,
+        "time": "54:10",
+        "pace": "5:53/km",
+        "cadence": 162,
+        "dplus": 81,
+        "effort": 23,
+        "kcal": 659,
+        "summary": "9,2 km en 2 sorties (4,2 à 6:27 puis 5,0 à 5:25/km, FC 143) : volume OK mais cadence 162 < 168 et ~46 min d’arrêts. Fesse/talon > 3/10 → marche.",
+        "recovery": "Déjeuner : 30 g de protéines (poulet, œufs ou thon), légumes, riz ou pâtes complètes en portion modérée, grand verre d’eau."
+      },
+      "done": true
     },
     "2026-11-12": {
       "tag": "Natation",
@@ -570,14 +573,14 @@
     },
     "2026-11-09": {
       "target_km": 34,
-      "done_km": 11.2,
+      "done_km": 16.2,
       "planned_km": {
         "2026-11-11": 10,
         "2026-11-15": 16
       },
       "daily_km": {
         "2026-11-09": 7,
-        "2026-11-11": 4.2
+        "2026-11-11": 9.2
       },
       "bike_km": 0,
       "swim_m": 0
