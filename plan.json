@@ -232,7 +232,21 @@
       "title": "Footing avec les copains · ~10 km facile",
       "detail": "Férié. Allure 5:05-5:25/km, en aisance respiratoire : ne te laisse pas embarquer par le groupe. Sur le plat, 172-175 pas/min. Fesse ou talon > 3/10 → tu raccourcis. Remplace le footing de jeudi.",
       "food": "Petit-déj léger 1h30 avant (pain + miel, banane). Après : protéines + légumes, féculents modérés.",
-      "care": "🩹 Routine nerf le matin. Pas de côtes ni d’accélérations ; douleur > 3/10 → marche."
+      "care": "🩹 Routine nerf le matin. Pas de côtes ni d’accélérations ; douleur > 3/10 → marche.",
+      "session": {
+        "strava_ids": [
+          "20944913208"
+        ],
+        "sport": "Run",
+        "km": 4.2,
+        "time": "27:03",
+        "pace": "6:27/km",
+        "cadence": 160,
+        "effort": 4,
+        "kcal": 303,
+        "summary": "4,2 km à 6:27/km au lieu de ~10 km, 23 min d’arrêts et 2 accélérations non prévues. Cadence 160 < 168. Fesse/talon > 3/10 → stop et marche.",
+        "recovery": "Déjeuner : 30 g de protéines (œufs, thon ou poulet), légumes, petite part de riz ou pain complet. Bien t’hydrater, pas besoin de plus."
+      }
     },
     "2026-11-12": {
       "tag": "Natation",
@@ -556,13 +570,14 @@
     },
     "2026-11-09": {
       "target_km": 34,
-      "done_km": 7,
+      "done_km": 11.2,
       "planned_km": {
         "2026-11-11": 10,
         "2026-11-15": 16
       },
       "daily_km": {
-        "2026-11-09": 7
+        "2026-11-09": 7,
+        "2026-11-11": 4.2
       },
       "bike_km": 0,
       "swim_m": 0
