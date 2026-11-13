@@ -270,18 +270,19 @@
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
       "session": {
         "strava_ids": [
+          "20975369220",
           "20973074348"
         ],
-        "sport": "Run",
-        "km": 3,
-        "time": "16:07",
-        "pace": "5:20/km",
-        "hr": 123,
-        "cadence": 162,
-        "effort": 3,
-        "kcal": 181,
-        "summary": "3 km faciles à 5:20/km à la place du vélo, avec un arrêt en route. Cadence 162 (<168) : pas plus courts. Si la fesse tire > 3/10, retour au vélo/repos.",
-        "recovery": "Footing court : ce soir, filet de poulet ou œufs (30 g de protéines), grosse poêlée de légumes, une petite portion de riz, et 500 ml d'eau."
+        "sport": "Ride",
+        "km": 21.6,
+        "time": "50:11",
+        "pace": "25.8 km/h",
+        "hr": 135,
+        "dplus": 146,
+        "effort": 29,
+        "kcal": 560,
+        "summary": "Vélo 21,6 km en 50 min (FC 135) conforme au programme, plus 3 km de footing à 5:20 le midi (cadence 162). Double séance : si la fesse tire > 3/10, repos demain.",
+        "recovery": "Ce soir : saumon ou poulet (30 g de protéines), riz ou patate douce en portion moyenne, légumes à volonté et 500 ml d'eau. Pas de restriction après 2 séances."
       },
       "done": true
     },
@@ -599,7 +600,7 @@
         "2026-11-11": 9.2,
         "2026-11-13": 3
       },
-      "bike_km": 0,
+      "bike_km": 21.6,
       "swim_m": 0
     },
     "2026-11-16": {
