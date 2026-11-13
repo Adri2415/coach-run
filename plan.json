@@ -267,7 +267,23 @@
       "title": "Vélo facile 40 min ou repos",
       "detail": "Pédalage souple, sans forcer, pour faire tourner les jambes sans charger les ischios. Repos complet si la fesse tire.",
       "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
+      "session": {
+        "strava_ids": [
+          "20973074348"
+        ],
+        "sport": "Run",
+        "km": 3,
+        "time": "16:07",
+        "pace": "5:20/km",
+        "hr": 123,
+        "cadence": 162,
+        "effort": 3,
+        "kcal": 181,
+        "summary": "3 km faciles à 5:20/km à la place du vélo, avec un arrêt en route. Cadence 162 (<168) : pas plus courts. Si la fesse tire > 3/10, retour au vélo/repos.",
+        "recovery": "Footing court : ce soir, filet de poulet ou œufs (30 g de protéines), grosse poêlée de légumes, une petite portion de riz, et 500 ml d'eau."
+      },
+      "done": true
     },
     "2026-11-14": {
       "tag": "Repos",
@@ -573,14 +589,15 @@
     },
     "2026-11-09": {
       "target_km": 34,
-      "done_km": 16.2,
+      "done_km": 19.2,
       "planned_km": {
         "2026-11-11": 10,
         "2026-11-15": 16
       },
       "daily_km": {
         "2026-11-09": 7,
-        "2026-11-11": 9.2
+        "2026-11-11": 9.2,
+        "2026-11-13": 3
       },
       "bike_km": 0,
       "swim_m": 0
