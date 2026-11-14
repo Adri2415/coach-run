@@ -311,12 +311,12 @@
       }
     },
     "2026-11-15": {
-      "tag": "Sortie longue",
+      "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "16 km en endurance fondamentale",
-      "detail": "Allure 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou ischios qui tirent → 13 km.",
-      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "title": "Footing très facile · 6 km",
+      "detail": "La sortie longue saute : avec les 10,3 km de samedi, tu es déjà à 29,5 km. 6 km à 5:15-5:35/km, sur le plat, 170+ pas/min : semaine à 35,5 km. Talon ou fesse > 3/10 → vélo facile.",
+      "food": "Journée normale sans grosse recharge : protéines à chaque repas (œufs, poulet, skyr), féculents modérés, légumes. Hydrate-toi.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
     "2026-11-16": {
@@ -608,7 +608,7 @@
       "done_km": 29.5,
       "planned_km": {
         "2026-11-11": 10,
-        "2026-11-15": 16
+        "2026-11-15": 6
       },
       "daily_km": {
         "2026-11-09": 7,
