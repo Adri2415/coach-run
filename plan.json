@@ -293,7 +293,22 @@
       "title": "Repos avant la sortie longue",
       "detail": "Repos complet, ou 30 min de vélo très facile si tu as envie de bouger. Garde le tendon frais pour dimanche.",
       "food": "Dîner avec une portion normale de féculents (veille de sortie longue) + protéines. Hydrate-toi.",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
+      "session": {
+        "strava_ids": [
+          "20984728787"
+        ],
+        "sport": "Run",
+        "km": 10.3,
+        "time": "56:00",
+        "pace": "5:27/km",
+        "cadence": 164,
+        "dplus": 74,
+        "effort": 8,
+        "kcal": 722,
+        "summary": "10,3 km tranquille à 5:27/km au lieu du repos prévu, beaucoup d'arrêts (FC non captée). Cadence 164 < 168. Sortie longue demain : douleur > 3/10 = stop.",
+        "recovery": "Déjeuner : riz ou pâtes + poulet/œufs (30 g de protéines) + légumes, 500 ml d'eau. Ce soir, féculents normaux : veille de sortie longue."
+      }
     },
     "2026-11-15": {
       "tag": "Sortie longue",
@@ -590,7 +605,7 @@
     },
     "2026-11-09": {
       "target_km": 34,
-      "done_km": 19.2,
+      "done_km": 29.5,
       "planned_km": {
         "2026-11-11": 10,
         "2026-11-15": 16
@@ -598,7 +613,8 @@
       "daily_km": {
         "2026-11-09": 7,
         "2026-11-11": 9.2,
-        "2026-11-13": 3
+        "2026-11-13": 3,
+        "2026-11-14": 10.3
       },
       "bike_km": 21.6,
       "swim_m": 0
