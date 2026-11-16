@@ -326,15 +326,29 @@
       "title": "Gainage + fessiers · 45 min",
       "detail": "3 séries, +1 répétition ou un peu plus lourd sur le hip thrust et la montée sur marche si tout va bien.",
       "food": "Collagène + kiwi 45 min avant. 30-40 g de protéines au repas d’après (poulet, œufs, skyr) + légumes, féculents modérés.",
-      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde."
+      "care": "🩹 Routine nerf matin et midi. Muscu : ni soulevé de terre jambes tendues ni fente profonde.",
+      "session": {
+        "strava_ids": [
+          "21012393316"
+        ],
+        "sport": "Run",
+        "km": 12.5,
+        "time": "1:10:45",
+        "pace": "5:39/km",
+        "cadence": 165,
+        "dplus": 40,
+        "kcal": 927,
+        "summary": "12,5 km facile à 5:39/km au lieu de la muscu (FC non captée). Cadence 165 < 168. Semaine adaptée : pas de course mardi, dimanche à 12,5 km.",
+        "recovery": "Dîner : 30 g de protéines (poulet, œufs ou poisson) + légumes + riz ou patate douce en portion modérée, 500 ml d’eau. Muscu à caser demain."
+      }
     },
     "2026-11-17": {
-      "tag": "Footing",
-      "kind": "run",
-      "emoji": "🏃",
-      "title": "Footing facile · 9 km (pas de vitesse)",
-      "detail": "Vitesse suspendue jusqu’au kiné de demain. Allure 5:05-5:25/km, sur le plat, sans lignes droites. 172-175 pas/min.",
-      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Dîner : protéines + légumes, petite portion de féculents.",
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Pas de course · muscu de lundi si possible",
+      "detail": "Avec les 12,5 km imprévus de lundi, le footing de 9 km saute. Place la muscu (gainage + fessiers, 3 séries) si tu ne l’as pas faite, sinon repos ou 30 min de vélo très facile.",
+      "food": "Si muscu : collagène + kiwi 45 min avant, puis 30-40 g de protéines (poulet, œufs, skyr) + légumes. Sinon journée légère : protéines à chaque repas, féculents modérés.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
     },
     "2026-11-18": {
@@ -350,8 +364,8 @@
       "tag": "Footing",
       "kind": "run",
       "emoji": "🏃",
-      "title": "Footing facile · 10 km",
-      "detail": "Allure 5:00-5:20/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
+      "title": "Footing facile · 8 km",
+      "detail": "Allure 5:00-5:20/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides. Ramené de 10 à 8 km : on monte depuis les 29,5 km de la semaine dernière, pas plus de +10 %.",
       "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
     },
@@ -377,9 +391,9 @@
       "tag": "Sortie longue",
       "kind": "run",
       "emoji": "🏃",
-      "title": "18 km en endurance fondamentale",
-      "detail": "Allure 5:00-5:20/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 14 km.",
-      "food": "Petit-déj 2 h avant, de l’eau pendant. Féculents + 30 g de protéines dans l’heure après.",
+      "title": "12,5 km en endurance fondamentale",
+      "detail": "Ramenée de 16 à 12,5 km avec les 12,5 km imprévus de lundi : la semaine reste à 33 km. 5:05-5:25/km, sur le plat, sans accélération finale. Jambes lourdes ou douleur → 10 km.",
+      "food": "Petit-déj 1h30-2 h avant (pain + miel, banane), de l’eau. Après : féculents modérés + 30 g de protéines (œufs, poulet, skyr) + légumes.",
       "care": "🩹 Routine nerf le matin. Sortie longue sur le plat, pas de côtes ; douleur > 3/10 → raccourcis."
     },
     "2026-11-23": {
@@ -620,14 +634,15 @@
       "swim_m": 0
     },
     "2026-11-16": {
-      "target_km": 37,
-      "done_km": 0,
+      "target_km": 33,
+      "done_km": 12.5,
       "planned_km": {
-        "2026-11-17": 9,
-        "2026-11-19": 10,
-        "2026-11-22": 18
+        "2026-11-19": 8,
+        "2026-11-22": 12.5
       },
-      "daily_km": {},
+      "daily_km": {
+        "2026-11-16": 12.5
+      },
       "bike_km": 0,
       "swim_m": 0
     },
