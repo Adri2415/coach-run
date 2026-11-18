@@ -361,24 +361,29 @@
       "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
       "session": {
         "strava_ids": [
-          "21036357349"
+          "21036357349",
+          "21038664846"
         ],
-        "sport": "WeightTraining",
-        "time": "46:34",
-        "hr": 70,
-        "effort": 3,
-        "kcal": 105,
-        "summary": "Muscu de lundi bien rattrapée ce midi : 46 min, effort léger (3). Bonne décision après les 12,5 km imprévus. Pense au point tendon/fesse avec le kiné.",
-        "recovery": "Ce soir : 30-40 g de protéines (poulet, œufs ou skyr) + kiwi ou poivron pour la vitamine C, grosse portion de légumes, féculents modérés."
+        "sport": "Run",
+        "km": 6.7,
+        "time": "36:37",
+        "pace": "5:27/km",
+        "hr": 147,
+        "cadence": 168,
+        "dplus": 50,
+        "effort": 41,
+        "kcal": 472,
+        "summary": "Piste non prévue le jour du kiné : ~9 × 30 s à ~3:00/km, récup 1 min, FC max 191, + muscu 46 min le midi. Douleur > 3/10 → stop. Jeudi passe en repos.",
+        "recovery": "Dîner : riz ou pâtes + 30 g de protéines (poulet, saumon ou œufs) + légumes, un kiwi pour le tendon, 500 ml d’eau. Pas de restriction ce soir."
       }
     },
     "2026-11-19": {
-      "tag": "Footing",
-      "kind": "run",
-      "emoji": "🏃",
-      "title": "Footing facile · 8 km",
-      "detail": "Allure 5:00-5:20/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides. Ramené de 10 à 8 km : on monte depuis les 29,5 km de la semaine dernière, pas plus de +10 %.",
-      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos ou vélo très facile · 30-40 min",
+      "detail": "Avec la séance de piste imprévue de mercredi soir (9 × 30 s vite, FC max 191), le footing de 8 km saute : pas de course le lendemain d’une séance dure. Repos ou vélo très facile, et note la douleur au talon au lever.",
+      "food": "Journée légère en féculents, protéines à chaque repas (œufs, poulet, skyr), grosse portion de légumes, un kiwi pour le tendon. Léger déficit possible.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
     },
     "2026-11-20": {
@@ -647,14 +652,13 @@
     },
     "2026-11-16": {
       "target_km": 33,
-      "done_km": 12.5,
+      "done_km": 19.2,
       "planned_km": {
-        "2026-11-19": 8,
         "2026-11-22": 12.5
       },
       "daily_km": {
         "2026-11-16": 12.5,
-        "2026-11-18": 0
+        "2026-11-18": 6.7
       },
       "bike_km": 0,
       "swim_m": 0
