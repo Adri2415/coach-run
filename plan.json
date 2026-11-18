@@ -358,7 +358,19 @@
       "title": "Kiné · option 40 min de vélo facile",
       "detail": "Point sur le tendon, la fesse et les ischios. On décide avec le kiné de la reprise de la vitesse.",
       "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
+      "session": {
+        "strava_ids": [
+          "21036357349"
+        ],
+        "sport": "WeightTraining",
+        "time": "46:34",
+        "hr": 70,
+        "effort": 3,
+        "kcal": 105,
+        "summary": "Muscu de lundi bien rattrapée ce midi : 46 min, effort léger (3). Bonne décision après les 12,5 km imprévus. Pense au point tendon/fesse avec le kiné.",
+        "recovery": "Ce soir : 30-40 g de protéines (poulet, œufs ou skyr) + kiwi ou poivron pour la vitamine C, grosse portion de légumes, féculents modérés."
+      }
     },
     "2026-11-19": {
       "tag": "Footing",
@@ -641,7 +653,8 @@
         "2026-11-22": 12.5
       },
       "daily_km": {
-        "2026-11-16": 12.5
+        "2026-11-16": 12.5,
+        "2026-11-18": 0
       },
       "bike_km": 0,
       "swim_m": 0
