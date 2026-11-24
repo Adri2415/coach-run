@@ -446,7 +446,22 @@
       "title": "4 × 1000 m allure semi · 10 km",
       "detail": "20 min footing + 3 lignes droites. 4 × 1000 m à 3:40-3:45/km, récup 2 min en trottinant. 10 min retour au calme. Pas de séance dure si la gêne au talon ou sous la fesse dépasse 3/10 au lever : footing lent à la place.",
       "food": "Féculents au déjeuner, banane ou pain + miel 1h30 avant. Dîner : féculents + 30 g de protéines. Pas de restriction aujourd’hui.",
-      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent."
+      "care": "🩹 Routine nerf le matin. Vitesse sur le plat, foulée courte et relâchée ; douleur > 3/10 → footing lent.",
+      "session": {
+        "strava_ids": [
+          "21112019367"
+        ],
+        "sport": "Run",
+        "km": 10,
+        "time": "50:00",
+        "pace": "4:59/km",
+        "cadence": 169,
+        "dplus": 109,
+        "kcal": 734,
+        "summary": "7 × 400 m à 3:19/km de moyenne (récup ~1 min) au lieu de 4 × 1000 m allure semi : plus vif que prévu, 10 km respectés. Cadence 169, tendon à surveiller demain.",
+        "recovery": "Dîner ce soir : riz ou pâtes + 30 g de protéines (poulet, saumon ou 3 œufs) + légumes, 500 ml d’eau. Un skyr au coucher si faim."
+      },
+      "done": true
     },
     "2026-11-25": {
       "tag": "Kiné",
@@ -681,14 +696,16 @@
     },
     "2026-11-23": {
       "target_km": 40,
-      "done_km": 0,
+      "done_km": 10,
       "planned_km": {
         "2026-11-24": 10,
         "2026-11-26": 8,
         "2026-11-28": 5,
         "2026-11-29": 17
       },
-      "daily_km": {},
+      "daily_km": {
+        "2026-11-24": 10
+      },
       "bike_km": 0,
       "swim_m": 0
     },
