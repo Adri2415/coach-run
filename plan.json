@@ -470,15 +470,32 @@
       "title": "Kiné · option 40 min de vélo facile",
       "detail": "Fais le point sur la charge : quatre footings cette semaine.",
       "food": "Journée légère en féculents, protéines à chaque repas, grosse portion de légumes. Léger déficit possible.",
-      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min."
+      "care": "🩹 Glissements du nerf + ponts tenus, matin et midi. Lève-toi toutes les 30-45 min.",
+      "session": {
+        "strava_ids": [
+          "21119268884",
+          "21119265735",
+          "21119265713"
+        ],
+        "sport": "Run",
+        "km": 5.2,
+        "time": "28:02",
+        "pace": "5:23/km",
+        "hr": 119,
+        "cadence": 168,
+        "effort": 6,
+        "kcal": 309,
+        "summary": "Footing non prévu le jour du kiné : 5,2 km à 5:23/km (FC 119) + 0,6 km avant 57 min de renfo. Cadence 168, limite. Jeudi passe sans course.",
+        "recovery": "Dîner : poulet, poisson ou 3 œufs (30-40 g de protéines) + gros légumes, féculents modérés, un kiwi ou une orange pour le tendon."
+      }
     },
     "2026-11-26": {
-      "tag": "Footing",
-      "kind": "run",
-      "emoji": "🏃",
-      "title": "Footing facile · 8 km",
-      "detail": "Allure 5:05-5:25/km, sur le plat. Vise 172-175 pas/min : des pas un peu plus courts et plus rapides.",
-      "food": "Déjeuner protéines + légumes + féculents modérés, un fruit. Une banane 1 h avant si tu cours le soir.",
+      "tag": "Repos",
+      "kind": "rest",
+      "emoji": "😴",
+      "title": "Repos ou vélo très facile · 30-40 min",
+      "detail": "Avec les 5,8 km imprévus de mercredi, le footing de 8 km saute : ça aurait fait trois jours de course d’affilée pour ton tendon. Repos ou vélo très facile, et note la douleur au talon au lever.",
+      "food": "Journée légère en féculents, protéines à chaque repas (œufs, poulet, skyr), grosse portion de légumes, un kiwi pour le tendon. Léger déficit possible.",
       "care": "🩹 Routine nerf le matin. Footing sur le plat, pas de côtes ; fesse > 3/10 → marche."
     },
     "2026-11-27": {
@@ -696,15 +713,15 @@
     },
     "2026-11-23": {
       "target_km": 40,
-      "done_km": 10,
+      "done_km": 15.8,
       "planned_km": {
         "2026-11-24": 10,
-        "2026-11-26": 8,
         "2026-11-28": 5,
         "2026-11-29": 17
       },
       "daily_km": {
-        "2026-11-24": 10
+        "2026-11-24": 10,
+        "2026-11-25": 5.8
       },
       "bike_km": 0,
       "swim_m": 0
